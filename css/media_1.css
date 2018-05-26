@@ -1,0 +1,2141 @@
+/*-------------------------------------------------*/
+/*----------------------PHONES--------------------*/
+/*-----------------------------------------------*/
+@media (max-width: 575px) {
+	.sliderForCenter {
+		display: none!important;
+	}
+	#chooseYourRide .total-return-on-investment-home {
+		margin-top: 0!important;
+		position: relative;
+	}
+	.center {
+		position: relative;
+		bottom: 30px!important;
+	}
+	.divider hr {
+		position: absolute;
+		z-index: 1050;
+		top: 44px;
+	}
+	#main .logo {
+		bottom: 25px;
+	}
+	.phoneTest {
+		position: relative;
+		top: 9px!important;
+	}
+
+	.sidenav ul li {
+		padding-left: 0!important;
+		padding-right: 0!important;
+		text-align: center;
+	}
+
+	/*-----Contract Setup Showroom-----*/
+	#contract-setup .total-amount-to-pay .button-main {
+		bottom: 0!important;
+		margin-right: 0!important;
+		top: 20px!important;
+	}
+	.payoutType {
+		visibility: hidden;
+	}
+	#contract-setup .contract-setup {
+		padding-left: 15px!important;
+	}
+	#contract-setup .total-amount-payment {
+		padding-bottom: 50px!important;
+	}
+	#contract-setup .contract-setup-row {
+		padding-top: 50px!important;
+	}
+	#contract-setup h3 {
+		font-size: 16px!important;
+	}
+	#contract-setup .payment-method span, #contract-setup .total-amount-to-pay span {
+		font-size: 15px!important;
+	}
+	#contract-setup .contract-summary p {
+		font-size: 14px!important;
+	}
+	#contract-setup .contract-car-description p {
+		font-size: 12px!important;
+	}
+
+	/*-----Contract Setup Showroom ENDS-----*/
+
+	/*-----MAIN-SLIDER-MY-GARAGE & History Mode-----*/
+	.hel {
+		display: block!important;
+		color: white;
+		position: relative;
+		top: 5px!important;
+	}
+	.totalROII {
+		display: none;
+	}
+	.calendarDays-showroom b {
+		position: relative;
+		top: 5px!important;
+	}
+	#progressbar6 {
+		padding: 0 15px!important;
+	}
+	#progressbar23 {
+		padding: 0 10px!important;
+		top: 15px!important;
+	}
+	.grayscale50 {
+		position: relative;
+		top: 9px!important;
+		font-size: 21px!important;
+	}
+	#main-user .car-description-history-mode {
+		margin-top: 0!important;
+	}
+	#main-user .car-description-history-mode::before {
+		top: 90%!important;
+	}
+	#main-user {
+		background-size: cover!important;
+		background-position-x: center!important;
+	}
+	#main-user .rent-information-userpage .part1 button {
+		display: none;
+	}
+	#main-user .rent-information-userpage .part2 button {
+		display: none;
+	}
+	.rent-information-userpage {
+		padding-top: 70px!important;
+	}
+	#main-user .rent-information-userpage h3 {
+		font-size: 24px!important;
+	}
+	#main-user .rent-information-userpage p {
+		font-size: 12px!important;
+	}
+	#main-user .rent-information-userpage .part1 {
+		left: 0!important;
+	}
+	#main-user .rent-information-userpage .part2 {
+		right: 0!important;
+		left: 120px!important;
+	}
+	#main-user .total-return-on-investment .part1 .total {
+		font-size: 15px!important;
+		top: 3px!important;
+		padding-right: 0!important;
+	}
+	#main-user .total-return-on-investment .part1 .calendarDays {
+		padding-left: 0!important;
+	}
+	#main-user .total-return-on-investment .part1 .calendarDays b {
+		font-size: 15px!important;
+	}
+	#progressbar11 {
+		top: 5px!important;
+		padding: 0 12px!important;
+	}
+
+	/*----NOT NEEDED IN MOBILE VERSION-----*/
+	#main-user .total-return-on-investment .part1 .calendarDays span {
+		display: none;
+	}
+	#main-user .buttons-main-userpage {
+		display: none;
+	}
+	#main-user .total-return-on-investment .part1 .total span {
+		display: none;
+	}
+	.notNeededInMobileVersion {
+		display: none!important;
+	}
+	.part2 hr {
+		display: none;
+	}
+	.calendarDays img {
+		display: none;
+	}
+	/*-----MAIN-SLIDER-MY-GARAGE ENDS-----*/
+
+	/*-----Setting & Payments-----*/
+	.acc-settings #payment-details .first-block .dropdown-arrow .background-arrow {
+		position: absolute;
+		top: 40px!important;
+	}
+	.acc-settings #payment-details .first-block .dropdown-arrow select {
+		width: 100%!important;
+		padding-left: 20px!important;
+		padding-right: 70px!important;
+	}
+	.acc-settings .account-settings-form .second-block input {
+		width: 60%!important;
+	}
+	.acc-settings .account-settings-form .second-block input::placeholder {
+		font-size: 11px!important;
+	}
+	.acc-settings #payment-details .first-block span {
+		position: absolute!important;
+		font-size: 14px!important;
+	}
+	.acc-settings .account-settings-form .first-block label {
+		position: absolute;
+		font-size: 13px!important;
+		left: 30%!important;
+	}
+	.acc-settings .edit-account .uploadphoto {
+		padding-top: 0!important;
+	}
+	.acc-settings .edit-account .upload {
+		top: 22px!important;
+	}
+	.acc-settings .account-settings-form .second-block {
+		padding-top: 60px!important;
+	}
+	.acc-settings .account-settings-form .first-block input {
+		position: relative;
+		top: 30px!important;
+		margin: 0!important;
+		font-size: 12px!important;
+	}
+	.acc-settings #payment-details .third-block span {
+		font-size: 14px!important;
+	}
+	.acc-settings #payment-details .first-block select {
+		position: relative;
+		top: 40px!important;
+		margin-left: 0!important;
+	}
+	.acc-settings #payment-details .second-block input {
+		margin-top: 30px!important;
+	}
+	.acc-settings .tab2 {
+		padding: 5px!important;
+	}
+	.acc-settings .tab2 a {
+		font-size: 12px!important;
+	}
+	.acc-settings .ins {
+		margin-left: 15px!important;
+		margin-top: 2px!important;
+	}
+	.acc-settings #payment-details h2 {
+		font-size: 18px!important;
+	}
+	.acc-settings .edit-account h2 {
+		font-size: 18px!important;
+	}
+	.acc-settings .edit-account p {
+		font-size: 12px!important;
+	}
+	.acc-settings #payment-details h2 span {
+		font-size: 12px!important;
+	}
+	.acc-settings .account-settings-form .second-block label {
+		display: none;
+	}
+	/*-----Setting & Payments END-----*/
+
+	/*-----Withdraw Page-----*/
+	.withdraw .first-block input {
+		margin-top: 60px!important;
+		margin-left: 0!important;
+	}
+	.withdraw .dropdown-arrow select {
+		width: 140px!important;
+	}
+	.withdraw .dropdown-arrow .background-arrow {
+		left: 75%!important;
+	}
+	.withdraw .fee-block {
+		font-size: 13px!important;
+		margin-top: 5px!important;
+	}
+	.withdraw .i-want-to-withdraw {
+		font-size: 14px!important;
+	}
+	.withdraw .first-block .amount {
+		font-size: 14px!important;
+		padding-top: 70px!important;
+	}
+	.withdraw .withdraw-but img {
+		display: none;
+	}
+	.withdraw .receive-block {
+		font-size: 14px!important;
+		margin-top: 10px!important;
+	}
+	.withdraw .withdraw-button {
+		width: 85%!important;
+	}
+	.withdraw h2 {
+		font-size: 16px!important;
+		padding: 15px 10px!important;
+	}
+	.withdraw .back-button-login {
+		padding-top: 15px!important;
+	}
+	.withdraw .first-block {
+		padding-top: 20px!important;
+	}
+	/*-----Withdraw Page ENDS-----*/
+
+	/*-----Empty Garage Page-----*/
+	.empty-garage {
+		padding: 70px 0!important;
+	}
+	.empty-garage .text {
+		font-size: 12px!important;
+		padding-top: 12px!important;
+		margin-left: 130px!important;
+		padding-left: 2px!important;
+	}
+	.empty-garage .button  {
+		margin-left: 130px!important;
+		width: 80%!important;
+	}
+	.empty-garage .button button {
+		font-size: 10px!important;
+		width: 120px!important;
+	}
+	.empty-garage .button button img {
+		display: none;
+	}
+	.button-menu-empty-garage a.menu-empty-garage {
+		padding-right: 46px!important;
+		font-size: 11px!important;
+	}
+	.button-menu-empty-garage .back-button-login {
+		padding-right: 45px!important;
+	}
+	/*-----Empty Garage Page ENDS-----*/
+
+	/*-----Referals Section-----*/
+	#referals .referal-link input {
+		margin: 0 20px!important;
+	}
+	.notNeeded {
+		display: none!important;
+	}
+	#referals .referal-link .copy-button {
+		position: relative!important;
+		right: 10px!important;
+		top: 8px!important;
+		height: 34px!important;
+		border: 1px solid #3e4967!important;
+		border-bottom: 2px solid black!important;;
+	}
+	#referals .referal-link .banners-button {
+		left: 0!important;
+		top: 5px!important;
+		font-size: 14px!important;
+	}
+	#referals .referal-link {
+		padding-top: 30px!important;
+		padding-bottom: 15px!important;
+	}
+	#referals .referal-link input {
+		padding-left: 0!important;
+	}
+	#referals .referal-link input::placeholder {
+		text-align: center;
+		font-size: 11px!important;
+	}
+	#referals .user-progress-bars span {
+		font-size: 12px!important;
+	}
+	#referals .progress-statistics p {
+		font-size: 12px!important;
+	}
+	#referals .progress-statistics h4 {
+		font-size: 18px!important;
+	}
+	#referals .progress-statistics hr {
+		display: none;
+	}
+	.progress-statistics img {
+		display: none;
+	}
+	/*-----Referals Section ENDS-----*/
+
+	/*-----Sign Up Page-----*/
+	.signup-form .input .second-line .dropdown-select-arrow select {
+		left: 0!important;
+	}
+	.signup-form .input .payMethod {
+		left: 0!important;
+	}
+	.signup-form .input label {
+		padding-right: 10px!important;
+		font-size: 12px!important;
+	}
+	.signup-form .login-description h1 {
+		font-size: 18px!important;
+	}
+	.signup-form .input select {
+		font-size: 12px!important;
+	}
+	#signup-form .col-lg-5 {
+		padding-bottom: 10px;
+	}
+	.signup-form .input .second-line {
+		padding-top: 10px;
+	}
+	.signup-form .input input {
+		font-size: 11px;
+	}
+	.signup-form .input .button {
+		font-size: 14px!important;
+	}
+	.signup-form .input .by-joining {
+		font-size: 10px!important;
+	}
+	.signup-form .input .get-garage-keys img {
+		display: none;
+	}
+	.signup-form .back {
+		font-size: 10px!important;
+		left: 0!important;
+	}
+	.signup-form .login-description h2 {
+		font-size: 12px!important;
+	}
+	/*-----Sign Up Page ENDS-----*/
+
+	/*-----Login Page-----*/
+	.login-form .input input {
+		font-size: 12px;
+	}
+	.login-form .input .button {
+		font-size: 14px!important;
+	}
+	.login-form .input .button-submit img {
+		display: none;
+	}
+	.login-form .login-description h1 {
+		font-size: 18px!important;
+	}
+	.login-form .forgot-password .fgt {
+		padding-right: 0
+	}
+	.login-form .forgot-password a {
+		font-size: 10px!important;
+	}
+	.login-form .forgot-password .back-button-login button {
+		position: relative!important;
+		bottom: 2px!important;
+	}
+
+	.login-form .forgot-password .back {
+		font-size: 10px;
+	}
+	.login-form .login-description h2 {
+		font-size: 12px!important;
+	}
+	/*-----Login Page ENDS-----*/
+
+	/*-----Reffered members-----*/
+	#referredMembers-paymentHistory h1 {
+		font-size: 18px!important;
+	}
+	#referredMembers-paymentHistory .slick-element-payment-history .payment-history-title img {
+		width: 20%!important;
+	}
+	/*-----Reffered members END-----*/
+
+	/*-----User Start Page -----*/
+	.user-start-page .stage1, .user-start-page .stage2, .user-start-page .stage3{
+		margin-left: 60px!important;
+	}
+	.user-start-page p {
+		font-size: 12px!important;
+	}
+	.user-start-page {
+		padding: 50px!important;
+	}
+	/*-----User Start Page ENDS-----*/
+
+	/*-----Assistance & Banners-----*/
+	.assistance .left-description p {
+		font-size: 10px!important;
+	}
+	.assistance h1 {
+		font-size: 15px!important;
+	}
+	.assistance .back-button-login {
+		display: none;
+	}
+	.assistance .assistance-form .button {
+		font-size: 11px!important;
+		position: relative!important;
+		top: 2px!important;
+	}
+	.assistance .left-description, .assistance .assistance-form {
+		padding-top: 0!important;
+	}
+	.assistance .back {
+		display: none;
+	}
+	.assistance .left-description h3 {
+		font-size: 19px!important;
+	}
+	.assistance .assistance-form input::placeholder, .assistance .assistance-form textarea::placeholder {
+		font-size: 12px!important;
+	}
+	.assistance .assistance-form img {
+		display: none;
+	}
+	.promotional-banners .code {
+		font-size: 10px!important;
+	}
+	.promotional-banners .usethis {
+		font-size: 14px!important;
+		text-align: center;
+	}
+	/*-----Assistance & Banners Pages END-----*/
+
+	/*----Footer USERPAGE-----*/
+	footer .footer-end .rights2 span {
+		font-size: 10px!important;
+		padding: 8px 50px!important;
+	}
+	footer .footer-end .rights2 button {
+		right: 0!important;
+		padding-bottom: 8px!important;
+    padding-top: 3px!important;
+    padding-left: 17px!important;
+    padding-right: 13px!important;
+	}
+	footer .footer-end .rights2 button img {
+		width: 80%;
+	}
+	footer .user-heading h1 {
+		font-size: 26px!important;
+	}
+	footer .user-heading h2 {
+		font-size: 16px!important;
+	}
+	.logo-cars-footer img {
+		width: 100%;
+		height: 100%;
+	}
+	/*----Footer USERPAGE ENDS-----*/
+
+	.back-button .back-button-login, .back-button .back {
+		position: relative!important;
+		left: 20px!important;
+	}
+	.submit-button img {
+		display: none;
+	}
+	.delete {
+		display: none!important;
+	}
+
+	/*-------------------------------------*/
+	/*------------HOME PAGE----------------*/
+	/*-------------------------------------*/
+
+	/*-----Main description Section-----*/
+	.carsClub {
+		font-size: 26px!important;
+	}
+	.blockchain {
+		font-size: 16px!important;
+	}
+	#main .menu a {
+	 font-size: 12px!important;
+	}
+	#main .menu p {
+	 font-size: 10px!important;
+	}
+	#main .main-description h1 {
+	 font-size: 30px!important;
+	}
+	#main .main-description h2 {
+	 font-size: 18px!important;
+	}
+	#main .main-description p {
+	 font-size: 10px!important;
+	}
+	.main-description {
+		position: relative!important;
+		bottom: 330px!important;
+	}
+	.menu-main {
+		position: relative!important;
+		top: 170px!important;
+	}
+	.menu-main ul {
+		padding-left: 10px!important;
+	}
+	#main .button-main {
+		width: 130px!important;
+	}
+	#main .button-main span {
+		font-size: 10px!important;
+	}
+	#main .button-main2 {
+		width: 140px!important;
+		position: relative!important;
+		right: 15px!important;
+	}
+	#main .button-main2 span {
+		font-size: 10px!important;
+	}
+	/*-----Main description Section ENDS-----*/
+
+	/*-----Choose your ride calculator-----*/
+	.monthly-lease {
+		position: relative!important;
+		bottom: 255px!important;
+	}
+	#chooseYourRide .sliderForCenter {
+		padding-bottom: 10px!important;
+	}
+	#chooseYourRide .selects-choose {
+		margin-right: 20px!important;
+	}
+	#chooseYourRide .slick-arrow-white-left {
+		display: none!important;
+	}
+	#chooseYourRide .slick-arrow-white-right {
+		display: none!important;
+	}
+	#chooseYourRide .description h2 {
+		font-size: 32px!important;
+	}
+	#chooseYourRide .description p {
+		font-size: 12px!important;
+	}
+	#chooseYourRide .calculator h3 {
+		font-size: 24px!important;
+	}
+	#chooseYourRide .calculator p {
+		font-size: 15px!important;
+	}
+	#chooseYourRide .forms-calculator .dropdown-select-arrow select {
+		font-size: 13px!important;
+		padding-left: 55px!important;
+	}
+	#chooseYourRide .calculator {
+		padding-bottom: 0!important;
+		padding-top: 30px!important;
+	}
+	#chooseYourRide .slick-current span, #chooseYourRide .slick-current p {
+		margin: 0!important;
+	}
+	#chooseYourRide .slick-current span, #chooseYourRide .slick-current p {
+		font-size: 9px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 .total {
+		font-size: 13px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 .calendarDays {
+		font-size: 13px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 .calendarDays b {
+		font-size: 16px!important;
+		padding: 0!important;
+		margin: 0!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 .divider-ROI img {
+		display: none!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 span {
+		font-size: 14px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 .index {
+		font-size: 16px!important;
+	}
+	#progressbar17 {
+		display: none!important;
+	}
+	.total img {
+		display: none!important;
+	}
+	.selects-choose {
+		padding-top: 20px!important;
+	}
+	.slick-slide img {
+		max-width: 100%!important;
+		height: auto!important;
+	}
+	/*-----Choose your ride calculator ENDS-----*/
+
+	/*-----Analyze Statistics Section Starts-----*/
+	#analyzeStatistics .days-operated h4 {
+		font-size: 16px!important;
+	}
+	#analyzeStatistics .days-operated p {
+		font-size: 14px!important;
+	}
+	#analyzeStatistics .days-operated  {
+		margin: 100px 0!important;
+	}
+	#analyzeStatistics {
+		margin-top: -100px!important;
+	}
+	#analyzeStatistics .description-now {
+		padding-top: 200px!important;
+	}
+	#analyzeStatistics .description-now h2 {
+		font-size: 21px!important;
+	}
+	#analyzeStatistics .description-now p {
+		font-size: 12px!important;
+	}
+	#analyzeStatistics .statistics-2 h4 {
+		font-size: 21px!important;
+		margin: 0!important;
+		padding-top: 5px!important;
+	}
+	#analyzeStatistics .statistics-2 p {
+		font-size: 14px!important;
+	}
+	.days-operated hr {
+		width: 100px!important;
+	}
+	/*-----Analyze Statistics Section ENDS-----*/
+
+	/*-----Got Friends? Section Starts-----*/
+	#gotFriends .top-right1  {
+		margin-bottom: 100px!important;
+	}
+	#gotFriends .top-right1 .button-welcomeTo {
+		min-width: 80px!important;
+		position: relative!important;
+		right: 40px!important;
+		bottom: 25px!important;
+	}
+	#gotFriends .top-right1 .button-welcomeTo span {
+		font-size: 10px!important;
+		padding-right: 10px!important;
+	}
+	#gotFriends .letsdrive {
+		padding: 0 5px!important;
+	}
+	#gotFriends .gotfriends span {
+		font-size: 32px!important;
+	}
+	#gotFriends .gotfriends h4 {
+		font-size: 21px!important;
+	}
+	#gotFriends .gotfriends p {
+		font-size: 12px!important;
+	}
+	#gotFriends .comission h4 {
+		font-size: 21px!important;
+		padding-top: 30px!important;
+	}
+	#gotFriends .comission p {
+		font-size: 12px!important;
+	}
+	#gotFriends .statistics p {
+		font-size: 16px!important;
+	}
+	#gotFriends .statistics .top-right p {
+		position: relative!important;
+		right: 0!important;
+		left: 135%!important;
+	}
+	#gotFriends .statistics .top-left p {
+		position: relative!important;
+		right: 10%!important;
+	}
+	#gotFriends .statistics .top-right .statisticsText {
+		font-size: 12px!important;
+		padding-top: 10px!important;
+	}
+	#gotFriends .statistics .top-right .statisticsNumber {
+		position: relative!important;
+		top: 15px!important;
+		font-size: 24px!important;
+	}
+	#gotFriends .statistics .top-left .statisticsNumber {
+		position: relative!important;
+		top: 15px!important;
+		font-size: 24px!important;
+	}
+	#gotFriends .statistics .top-left .statisticsText {
+		font-size: 12px!important;
+		padding-top: 10px!important;
+	}
+	#gotFriends .statistics img {
+		display: none!important;
+	}
+	.dividerStatistics {
+		width: 100px!important;
+	}
+	.bg-statistics {
+		width: 220%;
+		padding: 0!;
+	}
+	.chairs img {
+		width: 100%!important;
+	}
+	.imgdrive {
+		display: none!important;
+	}
+	/*-----Got Friends? Section ENDS-----*/
+
+	/*-----WelcomeTo Section-----*/
+	#welcomeTo .button-welcomeTo {
+		max-width: 140px!important;
+	}
+	#welcomeTo .button-welcomeTo span {
+		font-size: 11px!important;
+	}
+	#welcomeTo .porshe {
+		width: 100%!important;
+		height: 100%!important;
+		top: 110px!important;
+	}
+	#welcomeTo .welcomeTo-description {
+		padding-top: 10px!important;
+	}
+	#welcomeTo h2 {
+		font-size: 15px!important;
+	}
+	#welcomeTo b {
+		font-size: 12px!important;
+	}
+	#welcomeTo p {
+		font-size: 10px!important;
+	}
+	#welcomeTo .thirstyformore p {
+		font-size: 10px!important;
+	}
+	#welcomeTo .thirstyformore {
+		bottom: 0!important;
+		top: 90px!important;
+	}
+	.descrp {
+		position: relative!important;
+		top: 40px!important;
+	}
+	/*-----WelcomeTo Section ENDS-----*/
+
+	/*-----Our Strengths Section-----*/
+	#ourStrengths .description h2 {
+		font-size: 32px!important;
+	}
+	#ourStrengths .description p {
+		font-size: 12px!important;
+	}
+	#ourStrengths .menu2-bottom li {
+		font-size: 12px!important;
+		position: relative!important;
+		top: 11px!important;
+	}
+	#ourStrengths .menu2-top img {
+		width: 80%!important;
+	}
+	#ourStrengths .menu2-bottom li {
+		font-size: 12px!important;
+		position: relative!important;
+		top: 11px!important;
+	}
+	#ourStrengths p {
+		font-size: 12px!important;
+		padding-bottom: 20px!important;
+	}
+	#ourStrengths .tab {
+		position: relative!important;
+		top: 60px!important;
+		right: 50px!important;
+	}
+	.xs-hide-img{
+		display: none!important;
+	}
+	/*-----Our Strengths Section ENDS-----*/
+
+	/*-----Got more questions? Section-----*/
+	#gotMoreQuestions .description h2 {
+		font-size: 32px!important;
+	}
+	#gotMoreQuestions .description p {
+		font-size: 12px!important;
+	}
+	#gotMoreQuestions .tab2 a {
+		font-size: 10px!important;
+	}
+	#gotMoreQuestions .panel-container2 h2 {
+		font-size: 24px!important;
+	}
+	#gotMoreQuestions .panel-container2 p {
+		font-size: 10px!important;
+	}
+	#gotMoreQuestions .ajax-form-container img {
+		display: none!important;
+	}
+	#gotMoreQuestions #form input::placeholder, #gotMoreQuestions #form textarea::placeholder {
+		font-size: 12px!important;
+	}
+	#gotMoreQuestions #form button {
+		font-size: 12px!important;
+	}
+	#gotMoreQuestions .tab2 {
+		position: relative!important;
+		left: 20px!important;
+		top: 1px!important;
+		padding: 10px!important;
+	}
+	#gotMoreQuestions .tab2 span {
+		display: none!important;
+	}
+	#gotMoreQuestions .tab2 svg {
+		display: none!important;
+	}
+	.divider-morequestions {
+		display: none!important;
+	}
+	.ajax-form-home {
+		position: relative!important;
+		right: 30px!important;
+	}
+	/*-----Got more questions? Section ENDS-----*/
+
+	/*-----Your Garage & WideRange Sections-----*/
+	#yourGarage button {
+		width: 135px!important;
+		font-size: 11px!important;
+		margin-bottom: 20px!important;
+	}
+	#yourGarage h2 {
+		font-size: 28px!important;
+	}
+	#yourGarage p {
+		font-size: 12px!important;
+	}
+	#yourGarage .main_yourgarage {
+		padding-top: 0!important;
+	}
+	#wideRange h2 {
+		font-size: 24px!important;
+	}
+	#wideRange .row {
+		padding: 50px 0!important;
+	}
+	#wideRange p {
+		font-size: 12px!important;
+		padding-bottom: 40px!important;
+	}
+	.widevariety-svg {
+		display: none!important;
+	}
+	.photo-garage img {
+		width: 100%!important;
+		height: 40%!important;
+		margin-top: 50px!important;
+	}
+	.cryptocurrency img {
+		width: 40%!important;
+		height: 40%!important;
+	}
+	/*-----Your Garage & WideRange Sections END-----*/
+
+	/*-----Rocket & TakeTheControl Sections-----*/
+	#takeTheControl {
+		background: url('../img/background-xs-takeTheControl.png')!important;
+		background-size: cover!important;
+	}
+	#takeTheControl h2 {
+		font-size: 32px!important;
+	}
+	#takeTheControl p {
+		font-size: 12px!important;
+	}
+	#takeTheControl .takeTheControl-content h3, #takeTheControl .takeTheControl-content p {
+		font-size: 13px!important;
+	}
+	.rocket1 img, .rocket2 img {
+		position: relative!important;
+		left: 15px!important;
+	}
+	.rocket1 p, .rocket2 p {
+		text-align: center!important;
+		font-size: 14px!important;
+		padding-left: 20px!important;
+		padding-top: 0!important;
+		padding-bottom: 0!important;
+	}
+	#rocket div {
+		width: 100%!important;
+	}
+	#rocket .content {
+		padding: 70px!important;
+	}
+	/*-----Rocket & TakeTheControl Sections END-----*/
+
+	/*-------WeSimlify Section-------*/
+	#weSimplify button {
+		width: 100px!important;
+		font-size: 10px!important;
+	}
+	#weSimplify h2 {
+		font-size: 18px!important;
+	}
+	#weSimplify h3 {
+		font-size: 13px!important;
+	}
+	/*-------WeSimlify Section ENDS-------*/
+
+	/*-----Footer Home-----*/
+	#footer-home .footer-home .rights2 button {
+		right: 10px!important;
+		padding-top: 3px!important;
+		padding-bottom: 3px!important;
+		padding-left: 15px!important;
+		padding-right: 10px!important;
+	}
+	#footer-home .footer-home .rights2 span {
+		font-size: 10px!important;
+		left: 10px!important;
+		padding: 10px 40px!important;
+	}
+	#footer-home .menu4 {
+		padding-left: 30px!important;
+		padding-bottom: 0!important;
+		position: relative!important;
+		bottom: 30px!important;
+	}
+	#footer-home .menu4 span {
+		display: none!important;
+	}
+	#footer-home .menu4 img {
+		padding-right: 15px!important;
+		display: flex!important;
+		justify-content: center!important;
+	}
+	#footer-home .footer-home {
+		margin-top: 20px!important;
+	}
+	#footer-home hr {
+		display: none!important;
+	}
+	#footer-home .menu3 a {
+		display: none!important;
+	}
+	#footer-home .menu4 a {
+		font-size: 12px!important;
+	}
+	#footer-home .menu4 li {
+		margin-right: 20px!important;
+	}
+	.cars-logo img {
+		width: 90%!important;
+		height: 100%!important;
+	}
+	/*-----Footer Home ENDS-----*/
+}
+
+/*-------------------------------------------------*/
+/*--------------------TABLETS---------------------*/
+/*-----------------------------------------------*/
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.divider hr {
+		position: absolute;
+		z-index: 1050;
+		top: 44px;
+	}
+	#main .logo {
+		bottom: 25px;
+	}
+	.sidenav ul li {
+		padding-left: 0!important;
+		padding-right: 0!important;
+		text-align: center;
+	}
+
+	/*--------Show-room Contract setup-------*/
+	.payoutType {
+		left: 47%!important;
+	}
+	#contract-setup .contract-setup {
+		padding-left: 15px!important;
+	}
+	#contract-setup .total-amount-payment {
+		padding-bottom: 50px!important;
+	}
+	/*--------Show-room Contract setup ENDS-------*/
+
+	/*--------MAIN-SLIDER-MY-GARAGE-------*/
+	#main-user {
+		background-size: cover!important;
+		background-position-x: center!important;
+	}
+	#main-user .buttons-main-userpage {
+		padding: 20px 0!important;
+	}
+	#main-user .total-return-on-investment .part1 .total span {
+		display: none;
+	}
+	#main-user .total-return-on-investment-history-mode .part1 .total span {
+		display: none;
+	}
+ 	#main-user .rent-information-userpage h3 {
+		font-size: 28px!important;
+	}
+	#main-user .total-return-on-investment .part2 #progressbar13 {
+	 display: none;
+	}
+	#main-user .total-return-on-investment .part2 #progressbar12, #main-user .total-return-on-investment .part2 #progressbar14 {
+	 padding-top: 0!important;
+	}
+	.notNeededInMobileVersion {
+	 display: none!important;
+	}
+	#main-user .rent-information-userpage .car-description {
+ 		left: 12%!important;
+ 	}
+	#main-user .rent-information-userpage .car-description::before {
+		top: 85%!important;
+	}
+	#main-user .rent-information-userpage p {
+		font-size: 14px!important;
+	}
+	#main-user .total-return-on-investment .part2 hr {
+		display: none;
+	}
+	#main-user .total-return-on-investment .part2 span {
+		font-size: 15px!important;
+	}
+	.slick-slider {
+		margin-top: 70px!important;
+	}
+	#main-user .total-return-on-investment .part1 .calendarDays {
+		font-size: 16px!important;
+	}
+	#main-user .total-return-on-investment-history-mode .part1 .calendarDays {
+		font-size: 16px!important;
+	}
+	#main-user .total-return-on-investment .part1 .calendarDays img {
+		display: none;
+	}
+	#main-user .total-return-on-investment-history-mode .part1 .calendarDays img {
+		display: none;
+	}
+	#main-user .buttons-main-userpage a {
+		font-size: 14px!important;
+	}
+	#main-user .rent-information-userpage .part1 {
+		left: 0!important;
+	}
+	#main-user .rent-information-userpage .part2 {
+		right: 0!important;
+	}
+	#main-user .total-return-on-investment .part1 .total {
+		font-size: 16px!important;
+		top: 8px!important;
+	}
+	#main-user .total-return-on-investment-history-mode .part1 .total {
+		font-size: 16px!important;
+		top: 8px!important;
+	}
+	#main-user .total-return-on-investment .part1 .calendarDays b {
+		font-size: 23px!important;
+	}
+	#main-user .total-return-on-investment-history-mode .part1 .calendarDays b {
+		font-size: 23px!important;
+	}
+	#main-user .total-return-on-investment .part1 .total img {
+		display: none;
+	}
+	#main-user .total-return-on-investment-history-mode .part1 .total img {
+		display: none;
+	}
+	/*--------MAIN-SLIDER-MY-GARAGE ENDS-------*/
+
+	/*--------Settings & Payments-------*/
+	.acc-settings #payment-details .first-block .dropdown-arrow .background-arrow {
+		right: 0!important;
+	}
+	.acc-settings .account-settings-form .first-block {
+		padding-top: 20px!important;
+	}
+	.acc-settings .account-settings-form .second-block {
+		padding-top: 60px!important;
+	}
+	.acc-settings #payment-details h2 span {
+		font-size: 12px!important;
+	}
+	.acc-settings .account-settings-form .first-block input {
+		position: relative;
+		top: 30px;
+	}
+	.acc-settings #payment-details .third-block span {
+		font-size: 14px!important;
+	}
+	.acc-settings .account-settings-form .first-block label {
+		font-size: 14px!important;
+		position: absolute!important;
+	}
+	.acc-settings .account-settings-form .second-block label {
+		display: none;
+	}
+	.acc-settings .account-settings-form .second-block input {
+		position: relative;
+		left: 30px!important;
+	}
+	.acc-settings .account-settings-form .second-block input::placeholder {
+		font-size: 14px!important;
+	}
+	.acc-settings #payment-details .submit-button img {
+		right: 185px!important;
+	}
+	.acc-settings .account-settings-form .submit-button img {
+		right: 220px!important;
+	}
+	.acc-settings .edit-account p {
+		font-size: 12px!important;
+	}
+	.acc-settings #payment-details .first-block select {
+		margin-left: 10px!important;
+	}
+	.acc-settings #payment-details .first-block .background-arrow {
+		right: 15px!important;
+	}
+	.acc-settings #payment-details .first-block span {
+		font-size: 14px!important;
+		padding-top: 0!important;
+	}
+	/*--------Settings & Payments END-------*/
+
+	/*--------Withdraw Page-------*/
+	.withdraw .withdraw-button {
+		width: 85%!important;
+	}
+	.withdraw .dropdown-arrow .background-arrow {
+		position: absolute!important;
+		left: 76%!important;
+	}
+	.withdraw .receive-block {
+		margin-top: 10px!important;
+	}
+	.withdraw .first-block .amount {
+		position: relative;
+		padding-top: 0!important;
+		left: 110px!important;
+	}
+	.withdraw .first-block input {
+		height: 50%!important;
+		margin-top: 35px!important;
+	}
+	.withdraw h2 {
+		font-size: 18px!important;
+	}
+	.withdraw .withdraw-but img {
+		right: 33%!important;
+	}
+	.fee-block span {
+		font-size: 14px!important;
+	}
+	.withdraw .receive-block {
+		font-size: 17px!important;
+		padding-bottom: 0!important;
+	}
+	/*--------Withdraw Page ENDS-------*/
+
+	/*--------User-start-page-------*/
+	.user-start-page .stage1, .user-start-page .stage2, .user-start-page .stage3{
+		margin-left: 50px!important;
+	}
+	.user-start-page p {
+		font-size: 12px!important;
+	}
+	/*--------User-start-page ENDS-------*/
+
+	/*--------Referals section-------*/
+	#referals .referal-link input {
+		padding-left: 25px!important;
+	}
+	#referals .referal-link .banners-button {
+		right: 0!important;
+		top: 20px!important;
+	}
+	#referals .referal-link .static-image-button {
+		display: none;
+	}
+	#referals .progress-statistics hr {
+		display: none!important;
+	}
+	/*--------Referals section ENDS-------*/
+
+	/*--------Footer User-Page-------*/
+	.logo-cars-footer img {
+		width: 100%;
+		height: 100%;
+	}
+	footer .footer-end .rights2 button {
+		right: 0!important;
+	}
+	footer .footer-end .rights2 span {
+		font-size: 11px!important;
+		padding: 10px 100px!important;
+	}
+	/*--------Footer User-Page ENDS-------*/
+
+	/*--------Empty Garage Page-------*/
+	.empty-garage .text {
+		font-size: 14px!important;
+	}
+	.button-menu-empty-garage .back-button-login {
+		padding-right: 89px!important;
+	}
+	.button-menu-empty-garage a.menu-empty-garage {
+		padding-right: 90px!important;
+		font-size: 11px!important;
+	}
+	.empty-garage .button button {
+		font-size: 12px!important;
+	}
+	.empty-garage {
+		position: relative;
+		padding: 100px 0!important;
+	}
+	/*--------Empty Garage Page ENDS-------*/
+
+	/*--------Assistance & Banners Pages-------*/
+	.assistance .assistance-form input::placeholder, .assistance .assistance-form textarea::placeholder {
+		font-size: 12px!important;
+	}
+	.promotional-banners h1 {
+		bottom: 75px!important;
+	}
+	.banner-pills {
+		bottom: 30px!important;
+	}
+	.promotional-banners .code {
+		font-size: 12px!important;
+	}
+	.assistance .left-description {
+		padding-top: 10px!important;
+	}
+	.assistance .assistance-form {
+		padding-top: 30px!important;
+	}
+	.assistance .assistance-form img {
+		display: none;
+	}
+	.assistance .left-description h3 {
+		font-size: 24px!important;
+	}
+	.assistance .left-description p {
+		font-size: 10px!important;
+	}
+	.assistance h1 {
+		font-size: 16px!important;
+		margin: 30px 0!important;
+	}
+	/*--------Assistance & Banners Pages END-------*/
+
+	/*-------Reffered members & payment-history-------*/
+	#referredMembers-paymentHistory h1 {
+		position: relative;
+		top: 30px!important;
+	}
+	#referredMembers-paymentHistory .right-arrow-payment-history {
+		display: none!important;
+	}
+	#referredMembers-paymentHistory .left-arrow-payment-history {
+		display: none!important;
+	}
+	#referredMembers-paymentHistory .slick-element-payment-history .payment-history-title img {
+		width: 20%!important;
+	}
+	#referredMembers-paymentHistory .left-arrow {
+		display: none!important;
+	}
+	#referredMembers-paymentHistory .right-arrow {
+		display: none!important;
+	}
+	#referredMembers-paymentHistory h1 {
+		padding-top: 70px;
+	}
+	/*-------Reffered members & payment-history ENDS-------*/
+
+	/*-------------------------------------*/
+	/*------------HOME PAGE----------------*/
+	/*-------------------------------------*/
+
+	/*--------Sign-up & Login Pages-------*/
+	.signup-form .input .get-garage-keys img {
+		right: 33%!important;
+	}
+	.signup-form .input label {
+		padding-right: 5px!important;
+		font-size: 13px!important;
+	}
+	.signup-form .input .second-line .dropdown-select-arrow select {
+		left: 5%!important;
+	}
+	.signup-form .input input::placeholder {
+		font-size: 13px!important;
+	}
+	.signup-form .input select {
+		font-size: 13px!important;
+	}
+	.payMethod {
+		left: 0!important;
+	}
+	.back-button {
+		right: 80px!important;
+	}
+	/*--------Sign-up & Login Pages END-------*/
+
+	/*-------ChooseYourRide Section-------*/
+	#chooseYourRide .slick-arrow-white-right {
+		display: none!important;
+	}
+	#chooseYourRide .slick-arrow-white-left {
+		display: none!important;
+	}
+	#chooseYourRide .description h2 {
+		font-size: 32px!important;
+	}
+	#chooseYourRide .description p {
+		font-size: 14px!important;
+	}
+	#chooseYourRide .calculator h3 {
+		font-size: 30px!important;
+	}
+	#chooseYourRide .calculator p {
+		font-size: 14px!important;
+	}
+	#chooseYourRide .slick-current span, #chooseYourRide .slick-current p {
+		font-size: 10px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 .calendarDays {
+		font-size: 12px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 .calendarDays b {
+		font-size: 16px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 span {
+		font-size: 10px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 .index {
+		font-size: 12px!important;
+		bottom: 4px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 .total {
+		font-size: 12px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 .total img {
+		display: none!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 .divider-ROI img {
+		display: none!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 #progressbar17, #chooseYourRide .total-return-on-investment-home .part2 #progressbar18, #chooseYourRide .total-return-on-investment-home .part2 #progressbar19, #chooseYourRide .total-return-on-investment-home .part2 #progressbar20 {
+		padding-left: 0!important;
+		position: relative!important;
+		bottom: 5px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 .index {
+		padding-left: 0!important;
+		position: relative!important;
+		right: 3px!important;
+		padding-right: 0!important;
+		font-size: 10px!important;
+		padding-top: 4px!important;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 #progressbar17 {
+		top: 10px!important;
+	}
+	#chooseYourRide .slick-arrow-white-right {
+		left: -32px!important;
+	}
+	#chooseYourRide .slick-arrow-white-left {
+		right: -32px!important;
+	}
+	.selects-choose {
+		position: relative!important;
+		bottom: 10px!important;
+		right: 40px!important;
+	}
+	/*-------ChooseYourRide Section ENDS-------*/
+
+	/*-------MAIN Home-Page-------*/
+	#main div.main-description h1 {
+		font-size: 40px!important;
+	}
+	#main div.main-description h2 {
+		font-size: 19px!important;
+	}
+	#main div.main-description p {
+		font-size: 11px!important;
+	}
+	#main .button-main {
+		position: relative!important;
+		bottom: 10px!important;
+	}
+	#main .button-main2 {
+		position: relative!important;
+		bottom: 10px!important;
+	}
+	.menu a {
+		font-size: 14px!important;
+	}
+	.menu p {
+		font-size: 10px!important;
+	}
+	/*-------MAIN Home-Page ENDS-------*/
+
+	/*-------OurStrenghts Section-------*/
+	#ourStrengths .description h2 {
+		font-size: 32px!important;
+	}
+	#ourStrengths .description p {
+		font-size: 14px!important;
+	}
+	#ourStrengths .menu2-bottom li {
+		font-size: 12px!important;
+		position: relative!important;
+		top: 11px!important;
+	}
+	#ourStrengths .menu2-top img {
+		width: 80%!important;
+	}
+	#ourStrengths p {
+		font-size: 10px!important;
+	}
+	/*-------OurStrenghts Section ENDS-------*/
+
+	/*-------Analyze Statistics section-------*/
+	#analyzeStatistics {
+		margin-top: -100px!important;
+	}
+	#analyzeStatistics .description-now {
+		padding-top: 150px!important;
+	}
+	.xs-hide-img {
+		width: 100%
+	}
+	#analyzeStatistics .description-now h2 {
+		font-size: 21px!important;
+	}
+	#analyzeStatistics .description-now p {
+		font-size: 14px!important;
+	}
+	#analyzeStatistics .statistics-2 h4 {
+		font-size: 21px!important;
+	}
+	#analyzeStatistics .statistics-2 p {
+		font-size: 14px!important;
+	}
+	#analyzeStatistics .days-operated h4 {
+		font-size: 19px!important;
+	}
+	#analyzeStatistics .days-operated p {
+		font-size: 14px!important;
+	}
+
+	/*-------Analyze Statistics section ENDS-------*/
+
+	/*-------Got Friends? Section -------*/
+	#gotFriends {
+		background-size: 100% 100%;
+	}
+	.chairs img {
+		width: 100%!important;
+	}
+	#gotFriends .gotfriends span {
+		font-size: 32px!important;
+	}
+	#gotFriends .gotfriends h4 {
+		font-size: 21px!important;
+	}
+	#gotFriends .gotfriends p {
+		font-size: 12px!important;
+	}
+	#gotFriends .imgdrive {
+		width: 100%!important;
+		top: 20px!important;;
+	}
+	#gotFriends .comission h4 {
+		font-size: 21px!important;
+	}
+	#gotFriends .comission p {
+		font-size: 12px!important;
+	}
+	#gotFriends .bg-statistics {
+		width: 200%!important;
+		position: relative!important;
+		top: 30px!important;
+	}
+	#gotFriends .button-welcomeTo {
+		position: relative!important;
+		bottom: 14px!important;
+		left: 80px!important;
+	}
+	#gotFriends .statistics img {
+		display: none!important;
+	}
+	#gotFriends .statistics .top-left .statisticsText {
+		font-size: 16px!important;
+	}
+	#gotFriends .statistics .top-right .statisticsText {
+		font-size: 16px!important;
+		position: relative!important;
+	}
+	#gotFriends .statistics .top-left .statisticsNumber {
+		font-size: 35px!important;
+	}
+	#gotFriends .statistics .top-right .statisticsNumber {
+		font-size: 35px!important;
+		position: absolute!important;
+		padding-right: 100px!important;
+	}
+	#gotFriends .top-right {
+		position: absolute!important;
+		left: 50%!important;
+	}
+	/*-------Got Friends? Section ENDS-------*/
+
+	/*-------Got more questions? Section-------*/
+	#gotMoreQuestions .description h2 {
+		font-size: 32px!important;
+		padding-top: 25px!important;
+	}
+	#gotMoreQuestions .description p {
+		font-size: 14px!important;
+	}
+	#gotMoreQuestions .tab2 a {
+		font-size: 10px!important;
+	}
+	#gotMoreQuestions .ajax-form-container img {
+		display: none!important;
+	}
+	#gotMoreQuestions .panel-container2 h2 {
+		font-size: 24px!important;
+	}
+	#gotMoreQuestions .panel-container2 p {
+		font-size: 12px!important;
+	}
+	#gotMoreQuestions .etabs2 {
+		position: relative!important;
+		left: 20px!important;
+		top: 1px!important;
+	}
+	#gotMoreQuestions .tab2 {
+		position: relative!important;
+		right: 10px;
+	}
+	#gotMoreQuestions .tab2 span {
+		display: none!important;
+	}
+	#gotMoreQuestions .letUsNavigate {
+		padding-top: 0!important;
+	}
+	#gotMoreQuestions #form input::placeholder, #gotMoreQuestions #form textarea::placeholder {
+		font-size: 12px!important;
+	}
+	#gotMoreQuestions #form button {
+		font-size: 12px!important;
+	}
+	/*-------Got more questions? Section ENDS-------*/
+
+	/*-------WelcomeTo Section-------*/
+	#welcomeTo .porshe {
+		width: 100%!important;
+		height: 100%!important;
+		top: 50px!important;
+	}
+	#welcomeTo h2 {
+		font-size: 25px!important;
+	}
+	#welcomeTo b {
+		font-size: 16px!important;
+	}
+	#welcomeTo p {
+		font-size: 12px!important;
+	}
+	.thirstyformore {
+		margin-top: 89px!important;
+	}
+	#welcomeTo .thirstyformore p {
+		font-size: 14px!important;
+	}
+	/*-------WelcomeTo Section ENDS-------*/
+
+	/*-------TakeTheControl Section-------*/
+	#takeTheControl h2 {
+		font-size: 32px!important;
+	}
+	#takeTheControl p {
+		font-size: 14px!important;
+	}
+	#takeTheControl .takeTheControl-content h3, #takeTheControl .takeTheControl-content p {
+		font-size: 12px!important;
+	}
+	#takeTheControl {
+		background-size: 100% 90%;
+	}
+
+	/*-------TakeTheControl Section ENDS-------*/
+
+	/*-------Footer Home-------*/
+	#footer-home .footer-home .rights2 span {
+		font-size: 12px!important;
+	}
+	#footer-home .footer-home .rights2 button {
+		font-size: 12px!important;
+		left: 140px!important;
+	}
+	#footer-home .menu4 a {
+		font-size: 12px!important;
+	}
+	#footer-home .menu3 a {
+		font-size: 10px!important;
+	}
+	.cars-logo img {
+		width: 80%!important;
+		height: 80%!important;
+	}
+	/*-------Footer Home ENDS-------*/
+
+
+
+	.days-operated hr {
+		width: 250px;
+	}
+	.login-form .input .button-submit img {
+		display: none;
+	}
+	#wideRange h2 {
+		font-size: 26px!important;
+	}
+	#wideRange p {
+		font-size: 16px!important;
+	}
+	#weSimplify h2 {
+		font-size: 18px!important;
+	}
+	#weSimplify h3 {
+		font-size: 14px!important;
+	}
+	.rocket1 span {
+		font-size: 12px!important;
+
+	}
+	.rocket2 span {
+		font-size: 12px!important;
+	}
+	#yourGarage p {
+		font-size: 12px!important;
+	}
+	.photo-garage img {
+		width: 100%!important;
+		height: 90%!important;
+		padding-top: 30px!important;
+	}
+	#yourGarage h2 {
+		font-size: 28px!important;
+	}
+	.main_yourgarage {
+		margin-bottom: 50px!important;
+	}
+
+	.days-operated {
+		margin: 120px 0!important;
+	}
+
+	.statistics .top-left {
+		left: 20%!important;
+	}
+	.statistics .top-right {
+		left: 0!important;
+		right: 200px!important;
+	}
+
+}
+
+/*-------------------------------------------------*/
+/*---------------MEDIUM DEVICES-------------------*/
+/*-----------------------------------------------*/
+
+@media (min-width: 769px) and (max-width:992px){
+
+	#main div.main-description h1 {
+		font-size: 50px;
+	}
+	#main div.main-description h2 {
+		font-size: 21px;
+	}
+	#main div.main-description p {
+		font-size: 13px;
+	}
+	.menu a {
+		font-size: 16px!important;
+	}
+	.menu p {
+		font-size: 11px!important;
+	}
+	.cars-logo img {
+		width: 80%;
+		height: 80%;
+	}
+	/* welcomeTo section */
+	#welcomeTo h2 {
+		font-size: 32px;
+	}
+	#welcomeTo b {
+		font-size: 21px;
+	}
+	#welcomeTo p {
+		font-size: 14px;
+	}
+	#welcomeTo .porshe {
+		width: 100%;
+		height: 100%;
+	}
+	.thirstyformore {
+		margin-top: 42px;
+	}
+	#ourStrengths p {
+		font-size: 12px;
+	}
+	#takeTheControl .takeTheControl-content p {
+		font-size: 13px!important;
+	}
+	#gotFriends .gotfriends p, .comission p {
+		font-size: 13px;
+	}
+	#gotFriends .comission p {
+		font-size: 13px;
+	}
+	.comission .imgdrive {
+		width: 100%;
+	}
+	#gotFriends .button-welcomeTo {
+		position: relative;
+		bottom: 28.8px;
+		left: 80px;
+	}
+	.statistics .top-left {
+		left: 30%!important;
+	}
+	.statistics .top-right {
+		left: 450px!important;
+	}
+	.statistics .centered {
+		left: 345px!important;
+	}
+	#gotFriends .statistics img {
+		padding: 0;
+	}
+	#gotFriends .statistics .top-left .statisticsText {
+		font-size: 18px;
+		position: relative;
+		top: 20px;
+		left: 40px;
+	}
+
+	#gotFriends .statistics .top-right .statisticsText {
+		font-size: 18px;
+		position: relative;
+		top: 20px;
+		left: 40px;
+	}
+	#gotFriends .statistics .top-left .statisticsNumber {
+		font-size: 40px;
+		position: relative;
+		top: 20px;
+		left: 40px;
+	}
+	#gotFriends .statistics .top-right .statisticsNumber {
+		font-size: 40px;
+		position: relative;
+		top: 20px;
+		left: 40px;
+	}
+	#analyzeStatistics .statistics-2 h4 {
+		font-size: 24px!important;
+	}
+	#analyzeStatistics .statistics-2 p {
+		font-size: 15px!important;
+	}
+	.days-operated {
+		padding: 80px 0;
+	}
+	.contain img {
+		position: relative;
+		top: 20px;
+		left: 40px;
+	}
+	#wideRange h2 {
+		font-size: 32px;
+	}
+	#wideRange p {
+		font-size: 18px;
+	}
+	#chooseYourRide .slick-arrow-white-right {
+		left: -20px;
+	}
+	#chooseYourRide .slick-arrow-white-left {
+		right: -20px;
+	}
+	#chooseYourRide .slick-current p {
+		font-size: 12px;
+		padding-top: 15px;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 .total {
+		font-size: 15px;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 .calendarDays {
+		font-size: 15px;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 .calendarDays b {
+		font-size: 19px;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 span {
+		font-size: 13px;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 .index {
+		font-size: 16px;
+	}
+	#chooseYourRide .calculator h3 {
+		font-size: 32px;
+	}
+	#chooseYourRide .calculator p {
+		font-size: 18px;
+	}
+	#chooseYourRide .forms-calculator label {
+		font-size: 15px;
+	}
+	#chooseYourRide .forms-calculator #payout-type-home {
+		padding-top: 10px;
+	}
+	#chooseYourRide .forms-calculator .dropdown-select-arrow select {
+		width: 300px;
+		font-size: 15px;
+	}
+	#chooseYourRide .forms-calculator .dropdown-select-arrow .background-arrow {
+		right: 0;
+	}
+	.total img {
+		display: none;
+	}
+	#chooseYourRide .total-return-on-investment-home .part1 #progressbar17 {
+		top: 0;
+		margin-top: 10px;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 #progressbar17, #chooseYourRide .total-return-on-investment-home .part2 #progressbar18, #chooseYourRide .total-return-on-investment-home .part2 #progressbar19, #chooseYourRide .total-return-on-investment-home .part2 #progressbar20 {
+		padding-left: 0;
+		position: relative;
+		bottom: 3px;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 .divider-ROI img {
+		display: none;
+	}
+	#chooseYourRide .total-return-on-investment-home .part2 .index {
+		padding-left: 0;
+		padding-right: 3px;
+		font-size: 14px;
+		padding-top: 2.5px;
+	}
+	#weSimplify h2 {
+		font-size: 21px;
+	}
+	#weSimplify h3 {
+		font-size: 16px;
+	}
+	.rocket1 span {
+		font-size: 14px;
+
+	}
+	.rocket2 span {
+		font-size: 14px;
+	}
+	#yourGarage p {
+		font-size: 16px;
+	}
+	.main_yourgarage {
+		padding-bottom: 30px;
+	}
+	.photo-garage img {
+		width: 100%;
+		height: 100%;
+	}
+	.form img {
+		opacity: 0;
+	}
+	#gotMoreQuestions .description p {
+		color: white;
+		text-shadow: 1px 1px black;
+		padding-top: 5px;
+		font-weight: bold;
+	}
+	#gotMoreQuestions .panel-container2 h2 {
+		font-size: 28px;
+	}
+	#gotMoreQuestions .panel-container2 p {
+		font-size: 15px;
+	}
+	#footer-home .menu3 a {
+		font-size: 15px;
+	}
+	#footer-home .menu4 a {
+		font-size: 15px;
+	}
+	#footer-home .menu4 li {
+		padding-right: 0;
+	}
+	#footer-home .footer-home .rights2 span {
+		right: -60px;
+	}
+	#footer-home .footer-home .rights2 button {
+		left: 200px;
+	}
+
+
+}
+
+/*-------------------------------------------------*/
+/*----------------LARGE DEVICES-------------------*/
+/*-----------------------------------------------*/
+
+@media (min-width: 992px) and (max-width:1200px) {
+
+	.signup-form .input .get-garage-keys img {
+		right: 38%!important;
+	}
+	footer .footer-end .rights2 button {
+		right: 0!important;
+	}
+	footer .footer-end .rights2 span {
+		left: 50%!important;
+		font-size: 9px!important;
+		padding-top: 12px!important;
+		padding-bottom: 12px!important;
+	}
+	.logo-cars-footer img {
+		width: 100%;
+		height: 100%;
+	}
+	.assistance .assistance-form img {
+		display: none;
+	}
+	.assistance .assistance-form .button {
+		position: relative;
+		top: 10px!important;
+	}
+	#header-userpage .menu-userpage .avatar-userpage {
+		position: absolute;
+		right: 85%!important;
+	}
+	#main-user .total-return-on-investment .part1 .total {
+		font-size: 16px!important;
+	}
+	#main-user .main-slider-userpage .slick-arrow-white-right, #main-user .main-slider-my-garage .slick-arrow-white-right {
+		left: -25px!important;
+	}
+	#main-user .main-slider-userpage .slick-arrow-white-left, #main-user .main-slider-my-garage .slick-arrow-white-left {
+		right: -25px!important;
+	}
+	.withdraw .withdraw-but img {
+		right: 38%!important;
+	}
+	.withdraw .select-wallet .background-arrow {
+		left: 36.5%!important;
+	}
+	.acc-settings .edit-account p {
+		font-size: 14px!important;
+	}
+	.acc-settings .account-settings-form .second-block span {
+		font-size: 14px!important;
+	}
+	.acc-settings #payment-details .first-block span {
+		font-size: 15px!important;
+	}
+	.acc-settings #payment-details .first-block .background-arrow {
+		right: 16px!important;
+	}
+	.acc-settings .account-settings-form .first-block span {
+		font-size: 14px!important;
+	}
+	.back-button .back-button-login {
+		padding-right: 70px;
+	}
+	.back-button .back {
+		padding-right: 69px;
+	}
+	.acc-settings .account-settings-form .submit-button img {
+		right: 325px!important;
+	}
+	.withdraw .receive-block {
+		margin-top: 10px!important;
+	}
+	.withdraw .dropdown-arrow .background-arrow {
+		position: absolute!important;
+		left: 55.5%!important;
+	}
+	.acc-settings #payment-details .first-block .dropdown-arrow .background-arrow {
+		right: 0!important;
+	}
+	.signup-form .input .second-line .dropdown-select-arrow select {
+		left: 9%!important;
+	}
+	.payMethod {
+		left: 0!important;
+	}
+	.payoutType {
+		left: 44%!important;
+	}
+	#contract-setup .total-amount-to-pay .button-main {
+		padding-left: 20px!important;
+	}
+
+	/*-------------------------------------*/
+	/*------------HOME PAGE----------------*/
+	/*-------------------------------------*/
+
+	.login-form .input .button-submit img {
+		right: 36.5%!important;
+	}
+
+	#gotMoreQuestions .description p {
+		color: white;
+		text-shadow: 1px 1px black;
+	}
+	#footer-home .footer-home .rights2 button {
+		right: 0!important;
+	}
+	#chooseYourRide .slick-arrow-white-left {
+		right: 0!important;
+	}
+	#chooseYourRide .slick-arrow-white-right {
+		left: 0!important;
+	}
+	#gotFriends .statistics .dividerStatistics {
+		position: relative!important;
+		right: 20px!important;
+	}
+	.bg-statistics {
+		opacity: 1!important;
+		position: relative!important;
+		right: 5%!important;
+	}
+	#gotFriends .contain {
+		background: none!important;
+	}
+	#gotFriends .top-left {
+		left: 20%!important;
+	}
+	#gotFriends .top-right {
+		right: 0!important;
+	}
+	#gotFriends .centered {
+		left: 62%!important;
+	}
+	#gotFriends .button-welcomeTo {
+		position: relative;
+		left: 100px;
+		bottom: 7px;
+	}
+}

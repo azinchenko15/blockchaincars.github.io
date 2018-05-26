@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/media_1.css">
+	<link rel="stylesheet" href="css/noty.css">
+	<link rel="stylesheet" href="css/sunset.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.lineProgressbar.min.css">
+</head>
+<body>
+
+	<header id="header-userpage">
+		<div class="container">
+			<div class="d-lg-none d-xl-none">
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<ul>
+						<li><a href="">James Brown&nbsp; <img class="avatar-userpage" src="img/user-page/avatar-userpage.png" alt=""></a></li>
+						<li>
+							<ul class="menu-mobile-userpage-block">
+								<li><a href="settings-payments.html"><img src="svg/user-settings.svg" alt=""></a></li>
+								<li><a href="assistance.html"><img src="svg/user-send.svg" alt=""></a></li>
+								<li><a href="home.html"><img src="svg/user-logout.svg" alt=""></a></li>
+							</ul>
+						</li>
+
+							<ul>
+								<li>
+									<span class="last-log">
+										<img src="svg/last-log.svg" alt="">last log
+										<script>
+											var date = new Date();
+											day = date.getMonth();
+											month = date.getMonth();
+											year = date.getFullYear();
+											document.write(day + '.' + month + '.' + year);
+										</script>
+									</span>
+								</li>
+								<li>
+									<span class="date"><img src="svg/calendar-menu-userpage.svg" alt="">
+		    						<script>
+		    						Data = new Date();
+									Month = Data.getMonth();
+									Day = Data.getDate();
+									Hour = Data.getHours();
+									Minute = Data.getMinutes();
+									switch (Month)
+									{
+		  							case 0: fMonth="january"; break;
+		  							case 1: fMonth="february"; break;
+		  							case 2: fMonth="march"; break;
+		  							case 3: fMonth="april"; break;
+		  							case 4: fMonth="may"; break;
+		  							case 5: fMonth="june"; break;
+		  							case 6: fMonth="july"; break;
+		  							case 7: fMonth="august"; break;
+		  							case 8: fMonth="september"; break;
+		  							case 9: fMonth="october"; break;
+		  							case 10: fMonth="november"; break;
+		  							case 11: fMonth="december"; break;
+									}
+									document.write(Day+" "+fMonth+" | "+ Hour +":"+Minute);
+									</script></span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<span class="d-flex justify-content-end menu-sandwich" onclick="openNav()"><img src="svg/media/sanwich-menu.svg" alt=""></span>
+			</div>
+
+			<div class="row menu-userpage d-none d-lg-flex">
+				<div class="col-5 d-flex justify-content-end">
+					<ul>
+						<li><a href=""><img class="avatar-userpage" src="img/user-page/avatar-userpage.png" alt=""></a></li>
+						<li><a class="jamesBrown" href="#">James Brown</a></li>
+						<li><img src="img/user-page/divider-menu-userpage.png" alt=""></li>
+						<li><a href="settings-payments.html"><img src="svg/user-settings.svg" alt=""></a>
+						<li><img src="img/user-page/divider-menu-userpage2.png" alt=""></li>
+						<li><a href="assistance.html"><img src="svg/user-send.svg" alt=""></a></li>
+						<li><img src="img/user-page/divider-menu-userpage.png" alt=""></li>
+						<li><a href="home.html"><img src="svg/user-logout.svg" alt=""></a></li>
+						<li><img src="img/user-page/divider-menu-userpage.png" alt=""></li>
+						<li><img class="bug" src="img/user-page/divider-menu-userpage.png" alt=""></li>
+					</ul>
+				</div>
+				<div class="col-2 d-flex justify-content-center">
+					<a href=""><img src="img/user-page/logo-header.png" alt=""></a>
+				</div>
+				<div class="col-5 d-flex justify-content-center">
+					<ul>
+						<li>
+							<span class="last-log">
+								<img src="svg/last-log.svg" alt="">last log
+								<script>
+									var date = new Date();
+									day = date.getMonth();
+									month = date.getMonth();
+									year = date.getFullYear();
+									document.write(day + '.' + month + '.' + year);
+								</script>
+							</span>
+						</li>&nbsp;&nbsp;
+						<li>
+							<span class="date"><img src="svg/calendar-menu-userpage.svg" alt="">
+    						<script>
+    						Data = new Date();
+							Month = Data.getMonth();
+							Day = Data.getDate();
+							Hour = Data.getHours();
+							Minute = Data.getMinutes();
+							switch (Month)
+							{
+  							case 0: fMonth="january"; break;
+  							case 1: fMonth="february"; break;
+  							case 2: fMonth="march"; break;
+  							case 3: fMonth="april"; break;
+  							case 4: fMonth="may"; break;
+  							case 5: fMonth="june"; break;
+  							case 6: fMonth="july"; break;
+  							case 7: fMonth="august"; break;
+  							case 8: fMonth="september"; break;
+  							case 9: fMonth="october"; break;
+  							case 10: fMonth="november"; break;
+  							case 11: fMonth="december"; break;
+							}
+							document.write(Day+" "+fMonth+" | "+ Hour +":"+Minute);
+							</script></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<img class="user-divider" src="img/divider2.png" alt="">
+
+	<section id="main-user">
+
+		<div class="container payment-settings">
+
+			<div class="col-12 d-flex flex-column align-items-end back-button">
+        <a class="back-button-login" href="home.html"><button><img src="svg/back-button.svg" alt=""></button></a>
+        <a class="back" href="home.html">back</a>
+      </div>
+
+			<div class="row">
+				<div class="col-10 offset-1 acc-settings">
+    		<div id="tab-container2" class='tab-container2'>
+	 				<ul class='etabs2'>
+   					<li class='tab2 ins'><a href="#account-settings">account settings <span>|</span></a></li>
+   					<li class='tab2 ed'><a href="#payment-details">payment details</a></li>
+   				</ul>
+
+				<div class='panel-container2'>
+					<div id="account-settings">
+	 					<div class="container">
+						<form action="">
+	 							<div class="row edit-account">
+
+	 								<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 offset-lg-1 offset-md-1 offset-sm-1 d-flex flex-column align-items-start">
+	 									<h2>Edit account settings</h2>
+	 									<p>make sure that your account is always secure, so change your password once in a while</p>
+	 								</div>
+
+	   							<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 d-flex justify-content-end uploadphoto">
+	   								<a href="#"><span>upload<br> profile photo</span></a>&nbsp;
+	   								<div class="upload"><a href="#"><img src="svg/upload_profile_photo.svg" alt=""></a></div>
+	   								<img class="profilePhoto" src="svg/uploadPhoto.svg" alt="">
+	   							</div>
+
+   							</div><!--row edit-account-->
+   					</div><!--container-->
+
+   					<div class="container-fluid account-settings-form">
+   						<div class="row">
+   							<div class="col-10 offset-1 d-flex justify-content-around first-block">
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 d-flex justify-content-lg-center justify-content-sm-center justify-content-xs-end">
+   										<label for="my_name">My name is</label>
+   										<input id="my_name" type="text" value="JamesBrown" disabled>
+										</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 d-flex justify-content-lg-start justify-content-sm-center justify-content-xs-end">
+   										<label for="my_email">my email</label>
+   										<input id="my_email" type="text" value="james@gmail.com" disabled>
+										</div>
+
+   							</div><!--col ends-->
+   						</div><!--row-->
+
+   						<div class="row">
+   							<div class="col-lg-10 col-xs-12 offset-lg-1 d-flex justify-content-around second-block">
+
+									<div class="col-lg-5 d-flex justify-content-lg-center delete">
+   									<label>I want to change my password</label>
+									</div>
+
+									<div class="col-lg-7 col-sm-11 col-xs-12 d-flex justify-content-start">
+   									<input class="newpass" type="password" placeholder="Enter new password">
+   									<input class="newpass" type="password" placeholder="Repeat new password">
+									</div>
+
+   							</div><!--col ends-->
+   						</div><!--row-->
+
+   						<div class="row">
+   							<div class="col-12 d-flex justify-content-center submit-button">
+   								<input class="button" type="submit" value="save settings"><img src="svg/save-settings.svg" alt=""></button>
+   							</div>
+   						</div>
+
+   					</form>
+   					</div>
+  				</div><!--account-settings-->
+
+  				<!--PAYMENT DETAILS-->
+  				<div id="payment-details">
+
+   					<div class="container-fluid top-header">
+   						<div class="row">
+   							<div class="col-10 offset-1 d-flex justify-content-start">
+   								<h2>Edit payment details <span>update your payment details, to recieve payouts!</span></h2>
+   							</div>
+   						</div>
+   					</div>
+
+   					<div class="container addpaymentdetails">
+   						<div class="row">
+   							<div class="col-10 offset-1 d-flex justify-content-center first-block">
+   								<span>I want to add payment option</span>
+									<div class="dropdown-arrow">
+	   								<div class="background-arrow"><img src="svg/withdraw-arrow.svg" alt=""></div>
+	  								<select name="cars">
+	    								<option value="volvo">Bitcoin - Bitcoin Wallet</option>
+	    								<option value="saab">Dollars - Dollars Wallet</option>
+	    								<option value="fiat">Euros - Dollars Wallet</option>
+	    								<option value="audi">GPB - GBP Wallet</option>
+	  								</select>
+									</div>
+   							</div>
+   						</div>
+
+   						<div class="row">
+   							<div class="col-12 d-flex justify-content-center second-block">
+   								<input type="text" placeholder="Enter your wallet">
+   							</div>
+   						</div>
+
+   						<div class="row">
+   							<div class="col-12 d-flex justify-content-center third-block">
+   								<span>There is <b>0% fee</b> for this payment method</span>
+   							</div>
+   						</div>
+
+   						<div class="row">
+   							<div class="col-12 d-flex justify-content-center submit-button">
+   								<input class="btn" type="submit" value="update payment method"><img src="svg/save-settings.svg" alt="">
+   							</div>
+   						</div>
+
+   					</div><!--container-->
+   				</div><!--payment details-->
+  			</div><!--panel container-->
+				</div><!--tab container-->
+				</div><!--col-->
+			</div><!--row-->
+		</div><!--container-->
+
+	</section>
+
+	<img class="user-divider" src="img/divider2.png" alt="">
+
+	<section id="referals">
+		<div class="container wow fadeInLeft">
+			<div class="row referal-link d-flex justify-content-center">
+				<span>Garage link</span>&nbsp;
+				<hr>
+				<input type="text" placeholder="http://blockchaincarclub.com/reff?/JamesBrown">
+				<img class="static-image-button" src="svg/garagelink-button-image.svg" alt="">
+				<button class="copy-button">copy &nbsp;<img src="svg/copy.svg" alt=""></button>
+				<a href="banners.html"><button class="banners-button">Promo Banners <img src="svg/banners-button-image.svg" alt=""></button></a>
+			</div>
+			<hr>
+			<div class="row d-flex justify-content-around d-block d-sm-none mobile-bars">
+
+				<div class="movement-bar">
+    				<span id="1" class="secs Unit6 circle-progress-bar" data-val="30"></span>
+    				<h4>$00.00</h4>
+    				<p>Today Profit</p>
+				</div>
+				<div class="movement-bar">
+    				<span id="1" class="secs Unit6 circle-progress-bar" data-val="10"></span>
+    				<h4>$00.00</h4>
+    				<p>Pending Payout</p>
+				</div>
+
+			</div>
+			<div class="row progress-statistics d-flex justify-content-around">
+
+				<div class="movement-bar notNeeded">
+    				<span id="1" class="secs Unit6 circle-progress-bar" data-val="30"></span>
+    				<h4>$00.00</h4>
+    				<p>Today Profit</p>
+				</div>
+
+				<hr>
+
+				<div class="movement-bar">
+    				<span id="1" class="secs Unit6 circle-progress-bar" data-val="90"></span>
+    				<h4>$00.00</h4>
+    				<p>Total Profit</p>
+				</div>
+
+				<img src="svg/test.svg" alt="">
+
+				<div class="movement-bar">
+    				<span id="1" class="secs Unit1 circle-progress-bar" data-val="100"></span>
+    				<h4>$00.00</h4>
+    				<p>Account Balance</p>
+    				<p><button class="withdraw-userpage-button" type="submit">Withdraw</button></p>
+				</div>
+
+				<img src="svg/test.svg" alt="">
+
+				<div class="movement-bar">
+    				<span id="1" class="secs Unit6 circle-progress-bar" data-val="50"></span>
+    				<h4>$00.00</h4>
+    				<p>Withdrawn $</p>
+				</div>
+
+				<hr>
+
+				<div class="movement-bar notNeeded">
+    				<span id="1" class="secs Unit6 circle-progress-bar" data-val="10"></span>
+    				<h4>$00.00</h4>
+    				<p>Pending Payout</p>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row user-progress-bars">
+				<div class="col-lg-4 col-md-6 d-flex justify-content-center">
+					<span>Active affiliates</span>
+					<div id="progressbar1"></div>
+					<span>0</span>
+				</div>
+				<div class="col-lg-4 col-md-6 d-flex justify-content-center">
+					<span>Invited affiliates</span>
+					<div id="progressbar2"></div>
+					<span>0</span>
+				</div>
+				<div class="bug-image col-lg-4 col-md-12 d-flex justify-content-center">
+					<span>Affiliate Earning</span>
+					<div id="progressbar3"></div>
+					<span>$00.00</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<img class="user-divider" src="img/divider2.png" alt="">
+
+	<section id="referredMembers-paymentHistory">
+
+		<h1>Members that you have referred &nbsp;<img src="svg/members-referred.svg" alt=""></h1>
+
+		<div class="container wow fadeInDown">
+			<div class="slick-user-referals">
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Andrueet11</span>
+							<span class="price"><i class="fa fa-usd" aria-hidden="true"></i>50</span>
+						</div>
+						<img src="img/user-page/mercedes-maybach.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Just rented a car under you!</span>
+							<span class="referal-description-text">mercedes-maybach s 600</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Andrueet11</span>
+							<span class="price"><i class="fa fa-usd" aria-hidden="true"></i>50</span>
+						</div>
+						<img src="img/user-page/mercedes-maybach.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Just rented a car under you!</span>
+							<span class="referal-description-text">mercedes-maybach s 600</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Andrueet11</span>
+							<span class="price">- - -</span>
+						</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined under you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Andrueet11</span>
+							<span class="price">- - -</span>
+						</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined under you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Natan1244</span>
+							<span class="price">- - -</span>
+						</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined under you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Natan1244</span>
+							<span class="price">- - -</span>
+						</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined under you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Andrueet11</span>
+							<span class="price"><i class="fa fa-usd" aria-hidden="true"></i>50</span>
+						</div>
+						<img src="img/user-page/mercedes-maybach.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Just rented a car under you!</span>
+							<span class="referal-description-text">mercedes-maybach s 600</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+							<div class="referal-title d-flex flex-column align-items-start">
+								<span class="ref-login">Andrueet11</span>
+								<span class="price">- - -</span>
+							</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined under you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Natan1244</span>
+							<span class="price">- - -</span>
+						</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined uncder you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid test">
+			<img class="divider-payment-history" src="img/user-page/divider-payment-history.png" alt="">
+			<div class="payment-history">
+			<h1>Payment History &nbsp; <img src="svg/payment_history.svg" alt=""></h1>
+				<div class="container wow fadeInUp" data-wow-delay="0.5s">
+				<div class="slick-user-payment-history">
+
+					<div class="slick-element-payment-history d-flex flex-column justify-content-center align-items-center">
+						<div class="payment-history-block">
+							<div class="payment-history-title d-flex flex-nowrap justify-content-center align-items-center">
+								<span class="payment-history-title-text">You received</span>
+								<span class="payment-history-title-price"><i class="fa fa-usd"></i>50</span>
+								<img src="img/user-page/mercedes-maybach.png">
+							</div>
+						<div class="payment-history-separator"></div>
+							<div class="d-flex flex-column justify-content-center align-items-center">
+								<span class="payment-history-details-text">you received profit from renting</span>
+								<span class="payment-history-details-text-marked">mercedes-maybach s 600</span>
+							</div>
+						</div>
+					<div class="payment-history-date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></div>
+					</div>
+
+					<div class="slick-element-payment-history d-flex flex-column justify-content-center align-items-center">
+						<div class="payment-history-block d-flex flex-nowrap justify-content-between align-items-center">
+							<div class="withdrew-details d-flex flex-column justify-content-center align-items-center">
+								<div class="payment-history-title d-flex flex-nowrap justify-content-center align-items-center">
+									<span class="payment-history-title-text">You withdrew</span>
+								</div>
+								<div class="payment-history-separator"></div>
+								<div class="d-flex flex-column justify-content-center align-items-center">
+									<span class="payment-history-details-text">you withdrew yo your</span>
+									<span class="payment-history-details-text-marked">bitcoin account</span>
+								</div>
+							</div>
+
+							<div class="payment-history-price d-flex flex-column justify-content-center align-items-center">
+							<img src="img/user-page/bitcoin.png">
+							<span class="payment-history-title-price"><i class="fa fa-usd"></i>100</span>
+							</div>
+						</div>
+						<div class="payment-history-date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></div>
+					</div>
+
+					<div class="slick-element-payment-history d-flex flex-column justify-content-center align-items-center">
+				<div class="payment-history-block d-flex flex-nowrap justify-content-between align-items-center">
+					<div class="withdrew-details d-flex flex-column justify-content-center align-items-center">
+						<div class="payment-history-title d-flex flex-nowrap justify-content-center align-items-center">
+							<span class="payment-history-title-text">You withdrew</span>
+						</div>
+						<div class="payment-history-separator"></div>
+						<div class="d-flex flex-column justify-content-center align-items-center">
+							<span class="payment-history-details-text">you withdrew yo your</span>
+							<span class="payment-history-details-text-marked">bitcoin account</span>
+						</div>
+					</div>
+					<div class="payment-history-price d-flex flex-column justify-content-center align-items-center">
+						<img src="img/user-page/bitcoin.png">
+						<span class="payment-history-title-price"><i class="fa fa-usd"></i>100</span>
+					</div>
+				</div>
+				<div class="payment-history-date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></div>
+			</div>
+
+					<div class="slick-element-payment-history d-flex flex-column justify-content-center align-items-center">
+				<div class="payment-history-block d-flex flex-nowrap justify-content-between align-items-center">
+					<div class="withdrew-details d-flex flex-column justify-content-center align-items-center">
+						<div class="payment-history-title d-flex flex-nowrap justify-content-center align-items-center">
+							<span class="payment-history-title-text">You withdrew</span>
+						</div>
+						<div class="payment-history-separator"></div>
+						<div class="d-flex flex-column justify-content-center align-items-center">
+							<span class="payment-history-details-text">you withdrew yo your</span>
+							<span class="payment-history-details-text-marked">bitcoin account</span>
+						</div>
+					</div>
+					<div class="payment-history-price d-flex flex-column justify-content-center align-items-center">
+						<img src="img/user-page/bitcoin.png">
+						<span class="payment-history-title-price"><i class="fa fa-usd"></i>100</span>
+					</div>
+				</div>
+				<div class="payment-history-date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></div>
+			</div>
+
+					<div class="slick-element-payment-history d-flex flex-column justify-content-center align-items-center">
+				<div class="payment-history-block d-flex flex-nowrap justify-content-between align-items-center">
+					<div class="withdrew-details d-flex flex-column justify-content-center align-items-center">
+						<div class="payment-history-title d-flex flex-nowrap justify-content-center align-items-center">
+							<span class="payment-history-title-text">You withdrew</span>
+						</div>
+						<div class="payment-history-separator"></div>
+						<div class="d-flex flex-column justify-content-center align-items-center">
+							<span class="payment-history-details-text">you withdrew yo your</span>
+							<span class="payment-history-details-text-marked">bitcoin account</span>
+						</div>
+					</div>
+					<div class="payment-history-price d-flex flex-column justify-content-center align-items-center">
+						<img src="img/user-page/bitcoin.png">
+						<span class="payment-history-title-price"><i class="fa fa-usd"></i>100</span>
+					</div>
+				</div>
+				<div class="payment-history-date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></div>
+			</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<img class="user-divider" src="img/divider2.png" alt="">
+
+	<footer>
+		<div class="container">
+			<div class="user-heading">
+				<p><img src="img/user-page/logo.png" alt=""></p>
+				<h1>Cars Club</h1>
+				<h2>BLOCKCHAIN</h2>
+			</div>
+			<div class="logo-cars-footer d-flex justify-content-center">
+				<img src="img/user-page/logo-cars.png" alt="">
+			</div>
+		</div>
+		<div class="container-fluid footer-end">
+			<div class="container">
+				<div class="row rights2">
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 d-flex justify-content-lg-end justify-content-xs-start">
+    					<span>&copy; 2018 All Rights Reserved.</span>
+    				</div>
+    				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-lg-end justify-content-md-end justify-content-xs-end">
+    					<a class="go" href="#header-userpage"><button><img src="svg/backToTop.svg" alt=""></button></a>
+    				</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="js/libs.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/jquery.easytabs.js"></script>
+	<script src="js/jquery.hashchange.min.js"></script>
+	<script src="js/jquery-progresspiesvg.js"></script>
+	<script src="js/jquery-progresspiesvg-image.js"></script>
+	<script src="js/jquery-progresspiesvg-valueDisplay.js"></script>
+	<script src="js/jquery-animate-number.min.js"></script>
+	<script src="js/jquery.lineProgressbar.js"></script>
+	<script type="text/javascript" src="js/noty/packaged/jquery.noty.packaged.min.js"></script>
+	<script src="js/jquery.spincrement.min.js"></script>
+	<script src="js/noty.min.js"></script>
+	<script src="js/bounce.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		new WOW({
+			mobile: false
+		}).init();
+	</script>
+</body>
+</html>

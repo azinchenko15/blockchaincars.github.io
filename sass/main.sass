@@ -1,0 +1,3654 @@
+//-------------------------------------//
+//----------------FONTS---------------//
+//-----------------------------------//
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300')
+
+@font-face
+	font-family: 'HaloHandletter'
+	src: url('../fonts/HaloHandletter.otf')
+
+@font-face
+	font-family: 'axis.bold'
+	src: url('../fonts/axis.bold.otf')
+
+@font-face
+	font-family: 'Aku&Kamu'
+	src: url('../fonts/Aku&Kamu.otf')
+
+//-------------------------------------//
+//-----Custom repeatable things-------//
+//-----------------------------------//
+
+.mobile-bars
+	h4
+		color: white
+		font-family: 'Roboto',sans-serif
+		text-align: center
+		font-size: 18px
+		padding-top: 10px
+	p
+		font-size: 12px
+		text-align: center
+		color: #7c95a6
+		font-family: 'Roboto',sans-serif
+
+.bg-statistics
+	opacity: 0
+
+
+.slick-slide
+	outline: none!important
+
+ul.info_message
+	display: none!important
+
+ul.success_message
+	display: none!important
+
+ul.error_message
+	display: none!important
+
+
+.captcha-width
+	max-width: 100%
+
+.menu-mobile-userpage-block
+	li
+		display: inline-block
+
+button,a,input
+	outline: none!important
+	-webkit-outline: none!important
+	&:hover
+		cursor: pointer!important
+
+select
+	outline: none!important
+	&:hover
+		cursor: pointer!important
+	option
+		border: 1px solid #46ca9d!important
+		border-radius: 10px!important
+		outline: none!important
+		background: #46ca9d!important
+		color: white!important
+
+.hel
+	display: none
+
+.grayscale50
+	-webkit-filter: grayscale(50%)
+	filter: grayscale(50%)
+
+
+
+.car-description2
+	background-color: #6e7790
+	color: white
+	border: none
+	width: 145px
+	height: 32px
+	font-size: 13px
+	border-radius: 15px
+	margin-top: 10px
+	margin-right: 10px
+	padding-bottom: 5px
+	opacity: 0.8
+	font-family: 'Aku&Kamu'
+	text-transform: uppercase
+	padding-top: 5px
+	&:before
+		content: ''
+		position: absolute
+		top: 90%
+		right: 50%
+		width: 7px
+		height: 7px
+		background-color: #6e7790
+		border: none
+		transform: rotate(45deg)
+
+.hide
+	opacity: 0
+
+body
+	margin: 0
+	padding: 0
+	overflow-x: hidden
+
+.carsClub
+	font-family: 'HaloHandletter'
+	font-size: 35px
+	color: white
+	position: relative
+	bottom: 20px
+	text-align: center
+	padding: 0
+	margin: 0
+
+.blockchain
+	font-family: 'axis.bold'
+	font-size: 20px
+	text-align: center
+	color: white
+	position: relative
+	bottom: 20px
+
+//--------------------------------------------------------------------//
+//--------------------RESPONSIVE MENU HOME PAGE----------------------//
+//------------------------------------------------------------------//
+#header-home
+	span
+		img
+			margin: 10px 0
+
+.sidenav
+    height: 100%
+    width: 0
+    position: relative
+    z-index: 1
+    top: 0
+    right: 0
+    background-color: #1b2135
+    opacity: 0.95
+    overflow-x: hidden
+    padding-top: 60px
+    transition: .3s
+
+.sidenav
+	a
+	    text-decoration: none
+	    padding: 5px 20px
+	    font-size: 16px
+	    color: white
+	    display: block
+	    transition: 0.3s
+
+	ul
+		list-style: none
+		padding: 0
+		margin: 0
+		li
+			padding: 10px
+	.media-menu
+		ul
+			padding-left: 12px
+			li
+				display: inline-block
+				a
+					margin: 0
+					padding: 0
+
+.sidenav .closebtn
+    position: absolute
+    top: 0
+    right: 25px
+    font-size: 36px
+    margin-left: 50px
+
+//-----------------------------------------------------------//
+//--------------------HOME PAGE STARTS----------------------//
+//---------------------------------------------------------//
+
+//--------------------------------------//
+//---------------HEADER----------------//
+//------------------------------------//
+header
+	background: url('../img/header-top.jpg')
+	background-size: cover
+	.menu-header
+		padding-top: 15px
+		ul
+			li
+				display: inline
+				list-style: none
+				font-family: 'Roboto', sans-serif
+				font-size: 13px
+				margin-right: 10px
+			svg
+				fill: white
+				&:hover
+					fill: #F5F5F5
+	.header-social
+		img
+			margin-right: 5px
+			position: relative
+			bottom: 1px
+	.divider-menu-top
+		position: relative
+		&:before
+			content: ''
+			position: absolute
+			background: white
+			width: 10px
+			height: 1px
+			transform: rotate(90deg)
+			bottom: -23px
+			right: 45%
+	button
+		background-color: inherit
+		border: none
+		color: white
+		&:hover
+			cursor: pointer
+
+	.header-analyze-button
+		width: 146px
+		height: 27px
+		font-size: 12px
+		border-radius: 15px
+		background-color: #5b5c66
+		font-family: 'Roboto',sans-serif
+		opacity: 0.9
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+		&:hover
+			background-color: #1d1f2c
+	.header-getintouch-button
+		width: 150px
+		height: 27px
+		background-color: #1d1f2c
+		opacity: 0.9
+		border-radius: 15px
+		font-size: 13px
+		font-family: 'Roboto',sans-serif
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+		&:hover
+			background-color: #5b5c66
+
+//--------------------------------------//
+//------------HEADER ENDS--------------//
+//------------------------------------//
+
+.divider
+	hr
+		background-color: white
+		position: absolute
+		z-index: 1050
+		top: 59px
+		width: 100%
+		padding: 0
+		margin: 0
+
+//--------------------------------------//
+//--------MAIN CHANGABLE SECTION-------//
+//------------------------------------//
+#main
+	background: url('../img/main-bg.jpg')
+	background-size: cover
+	height: auto
+	padding-top: 59px
+	.main
+		padding-top: 70px
+	.logo
+		position: relative
+		bottom: 20px
+		text-align: center
+		margin: 0
+		padding: 0
+		z-index: 1035
+	.main-description
+		font-family: 'Roboto', sans-serif
+		color: #f8f9fc
+		text-align: right
+		h1
+			font-weight: 600
+			font-size: 63px
+		h2
+			font-weight: 300
+			font-size: 26px
+		hr
+			background-color: white
+		p
+			font-weight: 300
+			font-size: 17px
+	.menu
+		li
+			list-style: none
+			-webkit-transition: all linear .35s
+			-khtml-transition: all linear .35s
+			-moz-transition: all linear .35s
+			-ms-transition: all linear .35s
+			-o-transition: all linear .35s
+			transition: all linear .35s
+			&:hover
+				transform: translateX(10px)
+		a
+			color: white
+			font-size: 18px
+			&:hover
+				text-decoration: none
+		p
+			font-size: 13px
+			padding-left: 25px
+	.cars-logo
+		width: 100%
+		height: auto
+		background-color: #111423
+		padding: 20px 0
+		opacity: 0.7
+		img
+			padding: 10px 0
+			margin: 0
+	.container-fluid
+		margin: 0
+		padding-right: 0
+		padding-left: 0
+	a
+		text-decoration: none
+		&:hover
+		text-decoration: none
+	.button-main
+		display: flex
+		flex-wrap: nowrap
+		background: #fff
+		justify-content: space-between
+		align-items: center
+		border-radius: 15px
+		padding: 0
+		margin-right: 40px
+		width: 100%
+		border: none
+		max-width: 160px
+		min-height: 30px
+		box-shadow: 0px 2px 0px 0px rgba(5,5,6,0.52)
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+		&:hover
+			cursor: pointer
+			background-color: #d3526d
+			span
+				color: white
+				padding-left: 33px
+		span
+			color: #000
+			font-family: 'Roboto', sans-serif
+			font-weight: 600
+			padding-left: 20px
+			font-size: 14px
+			text-transform: capitalize
+			-webkit-transition: all linear .35s
+			-khtml-transition: all linear .35s
+			-moz-transition: all linear .35s
+			-ms-transition: all linear .35s
+			-o-transition: all linear .35s
+			transition: all linear .35s
+		.icon
+			background: #d3526d
+			border-top-right-radius: 15px
+			border-bottom-right-radius: 15px
+			min-width: 40px
+			min-height: 30px
+			position: relative
+			display: flex
+			justify-content: center
+			align-items: center
+			right: -1px
+	.button-main .icon
+		&::before
+			content: ''
+			position: absolute
+			left: -4px
+			top: 12px
+			width: 0
+			height: 0
+			border-style: solid
+			border-width: 3px 4px 3px 0
+			border-color: transparent #d3526d transparent transparent
+	.button-main2
+		display: flex
+		flex-wrap: nowrap
+		background: #fff
+		justify-content: space-between
+		align-items: center
+		border-radius: 15px
+		border: none
+		width: 100%
+		padding: 0
+		max-width: 180px
+		min-height: 30px
+		box-shadow: 0px 2px 0px 0px rgba(5,5,6,0.52)
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+		&:hover
+			cursor: pointer
+			background-color: #11b673
+			span
+				color: white
+				padding-left: 35px
+		span
+			color: #000
+			font-family: 'Roboto', sans-serif
+			font-weight: 600
+			font-size: 14px
+			padding-left: 20px
+			padding-right: 15px
+			text-transform: capitalize
+			justify-content: center
+	    display: flex
+	    width: 100%
+			-webkit-transition: all linear .35s
+			-khtml-transition: all linear .35s
+			-moz-transition: all linear .35s
+			-ms-transition: all linear .35s
+			-o-transition: all linear .35s
+			transition: all linear .35s
+		.icon
+			background: #11b673
+			border-top-right-radius: 15px
+			border-bottom-right-radius: 15px
+			min-width: 45px
+			min-height: 30px
+			position: relative
+			display: flex
+			justify-content: center
+			align-items: center
+			right: -1px
+	.button-main2 .icon
+		&::before
+			content: ''
+			position: absolute
+			left: -4px
+			top: 12px
+			width: 0
+			height: 0
+			border-style: solid
+			border-width: 3px 4px 3px 0
+			border-color: transparent #11b673 transparent transparent
+
+//-------------------------------------------//
+//--------MAIN CHANGABLE SECTION ENDS-------//
+//-----------------------------------------//
+
+.divider2
+	position: absolute
+	z-index:
+	padding: 0
+	margin: 0
+
+//--------------------------------------//
+//-------------Welcome To--------------//
+//------------------------------------//
+#welcomeTo
+	background: url('../img/welcomeTo-bg.png')
+	background-size: cover
+	background-repeat: no-repeat
+	position: relative
+	width: 100%
+	height: 290px
+	.welcomeTo-description
+		padding-top: 40px
+		color: white
+		text-align: right
+	.porshe
+		position: relative
+		z-index: 1
+	h2
+		font-family: 'HaloHandletter'
+		font-size: 40px
+	b
+		font-family: 'Roboto', sans-serif
+		font-size: 25px
+	p
+		font-family: 'Roboto', sans-serif
+		font-weight: 300
+		font-size: 16px
+		margin: 0
+	a
+		&:hover
+			text-decoration: none
+	.button-welcomeTo
+		display: flex
+		flex-wrap: nowrap
+		background: #fff
+		justify-content: space-between
+		align-items: center
+		border-radius: 15px
+		padding: 0
+		margin: 0
+		border-top: none
+		border-left: none
+		border-right: none
+		width: 100%
+		max-width: 150px
+		min-height: 30px
+		border-bottom: 2px solid #65676c
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+		&:hover
+			cursor: pointer
+			background-color: #161a3a
+			span
+				color: white
+				padding-left: 30px
+				padding-right: 8px
+		span
+			color: #000
+			font-family: 'Roboto', sans-serif
+			font-weight: 600
+			font-size: 14px
+			padding: 0 18px
+			text-transform: capitalize
+			justify-content: center
+	    display: flex
+	    width: 100%
+			-webkit-transition: all linear .35s
+			-khtml-transition: all linear .35s
+			-moz-transition: all linear .35s
+			-ms-transition: all linear .35s
+			-o-transition: all linear .35s
+			transition: all linear .35s
+		.icon
+			background: #161a3a
+			border-top-right-radius: 15px
+			border-bottom-right-radius: 15px
+			min-width: 40px
+			min-height: 30px
+			position: relative
+			display: flex
+			justify-content: center
+			align-items: center
+			right: -1.5px
+	.button-welcomeTo .icon
+		&::before
+			content: ''
+			position: absolute
+			left: -4px
+			top: 12px
+			width: 0
+			height: 0
+			border-style: solid
+			border-width: 3px 4px 3px 0
+			border-color: transparent #161a3a transparent transparent
+	.thirstyformore
+		background-color: #12162f
+		background-size: cover
+		position: relative
+		bottom: 60px
+		height: 80px
+		padding-top: 20px
+		p
+			color: #555c70
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+			padding-top: 5px
+
+//--------------------------------------//
+//------------Our Strengths------------//
+//------------------------------------//
+#ourStrengths
+	background: url('../img/our-strengths.png')
+	background-size: cover
+	.description
+		text-align: center
+		padding: 100px 0
+		color: white
+		h2
+			font-family: 'HaloHandletter'
+			font-size: 40px
+		p
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+	.changeimage-one
+		position: relative
+		left: 8px
+	.etabs
+		margin: 0
+		padding-left: 80px
+	.tab
+		color: black
+		margin: 0
+		padding: 0 15px
+		display: inline-block
+		background: #f1f2f4
+		border: 1px solid #f1f2f4
+		border-radius: 60px 60px 0 0
+	.tab
+		a
+			font-size: 14px
+			line-height: 2em
+			display: block
+			padding: 0 10px
+			outline: none
+	#tab-container
+		padding-top: 100px
+	.tab-container .panel-container
+		background: #f1f2f4
+		border: solid #666 1px
+		border-top: none
+		padding-top: 40px
+		padding-right: 40px
+		padding-left: 40px
+		border-radius: 15px
+	h2
+		font-family: 'HaloHandletter'
+		font-size: 30px
+		padding: 0
+		margin: 0
+	p
+		font-family: 'Roboto', sans-serif
+		font-size: 16px
+		font-weight: bold
+		margin: 0
+		padding: 0
+	hr
+		background-color: #555c70
+		width: 100%
+	.menu2-top
+		margin: 0
+		.h
+			position: relative
+			right: 5px
+		li
+			list-style: none
+	.menu2-bottom
+		text-align: center
+		li
+			list-style: none
+			margin-top: 10px
+		.b
+			position: relative
+			left: 1px
+		a
+			color: rgb(147, 162, 216)
+			position: relative
+			top: 10px
+			&::before
+				content: ''
+				position: absolute
+				background: white
+				width: 30px
+				height: 1px
+				transform: rotate(90deg)
+				bottom: 83px
+				right: 30%
+			&:hover
+				text-decoration: none
+				color: white
+				transition: .35s
+				.menu2-top
+					img
+						transform: translateY(20px)
+						transition: .35s
+
+//--------------------------------------//
+//----------Take The Control-----------//
+//------------------------------------//
+#takeTheControl
+	background: url('../img/background_takethecontrol.png')
+	background-size: 100% 100%
+	background-repeat: no-repeat
+	width: 100%
+	height: 100%
+	.description
+		text-align: center
+		padding-top: 230px
+		padding-bottom: 100px
+		color: black
+	h2
+		font-family: 'HaloHandletter'
+		font-size: 40px
+	p
+		font-family: 'Roboto', sans-serif
+		font-size: 16px
+	.space
+		margin-right: 5px
+	.takeTheControl-content
+		padding-bottom: 150px
+		h3,p
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+			text-align: center
+		button
+			width: 133px
+			height: 28px
+			font-family: 'Roboto', sans-serif
+			font-size: 12.5px
+			background-color: white
+			border-radius: 15px
+			border-top: none
+			border-left: none
+			border-right: none
+			border-bottom: 1.5px solid gray
+			-webkit-transition: all linear .35s
+			-khtml-transition: all linear .35s
+			-moz-transition: all linear .35s
+			-ms-transition: all linear .35s
+			-o-transition: all linear .35s
+			transition: all linear .35s
+			&:hover
+				cursor: pointer
+				background-color: #58698d
+				border-bottom: 1.5px solid black
+				color: white
+				padding-left: 10px
+
+
+//--------------------------------------//
+//------------Got Friends?------------//
+//------------------------------------//
+#gotFriends
+	background-color: #ffffff
+	.contain
+		background-image: url('../img/statistics.png')
+		background-repeat: no-repeat
+		background-size: cover
+		background-position-x: 50%
+	a
+		&:hover
+			text-decoration: none
+	.button-welcomeTo
+		display: flex
+		flex-wrap: nowrap
+		background: #fff
+		justify-content: space-between
+		align-items: center
+		border-radius: 15px
+		border: none
+		padding: 0
+		width: 100%
+		min-width: 140px
+		min-height: 30px
+		box-shadow: 0px 2px 0px 0px rgba(5,5,6,0.52)
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+		&:hover
+			cursor: pointer
+			background-color: #d3526d
+			span
+				color: white
+				padding-left: 33px
+		span
+			color: #000
+			font-family: 'Roboto', sans-serif
+			font-weight: 600
+			padding-left: 20px
+			font-size: 14px
+			text-transform: capitalize
+			justify-content: center
+			-webkit-transition: all linear .35s
+			-khtml-transition: all linear .35s
+			-moz-transition: all linear .35s
+			-ms-transition: all linear .35s
+			-o-transition: all linear .35s
+			transition: all linear .35s
+	    display: flex
+	    width: 100%
+		.icon
+			background: #d3526d
+			border-top-right-radius: 15px
+			border-bottom-right-radius: 15px
+			min-width: 40px
+			min-height: 30px
+			position: relative
+			display: flex
+			justify-content: center
+			align-items: center
+			right: -1px
+	.button-welcomeTo .icon
+		&::before
+			content: ''
+			position: absolute
+			left: -4px
+			top: 12px
+			width: 0
+			height: 0
+			border-style: solid
+			border-width: 3px 4px 3px 0
+			border-color: transparent #d3526d transparent transparent
+	.top-right1
+    	position: absolute
+    	top: 34.5%
+    	right: 17.5%
+	.letsdrive
+		position: relative
+    	text-align: center
+    	color: white
+
+	.gotfriends
+		padding-top: 100px
+		span
+			font-family: 'HaloHandletter'
+			font-size: 40px
+		h4
+			font-family: 'Roboto', sans-serif
+			font-size: 25px
+			font-weight: bold
+		p
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+	.comission
+		padding-bottom: 50px
+		h4
+			font-family: 'Roboto', sans-serif
+			font-size: 25px
+			font-weight: bold
+			text-align: right
+		p
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+			text-align: right
+	.statistics
+		padding: 0
+		img
+			padding: 0 20px
+			text-align: center
+		span
+			text-align: center
+		p
+			margin: 0
+			text-align: center
+			padding: 0
+	.aventador
+		position: absolute
+		right: 0.1%
+		z-index: 5
+		width: 100%
+		padding: 0
+		margin: 0
+	.contain
+		position: relative
+    	text-align: center
+    	color: white
+	.centered
+    	position: absolute
+    	top: 40%
+    	left: 50%
+    	transform: translate(-50%, -50%)
+	.top-left
+    	position: absolute
+    	color: white
+    	top: 20%
+    	left: 17%
+	.top-right
+		position: absolute
+		color: white
+		top: 20%
+		right: 17%
+	.statisticsNumber
+		font-family: 'Roboto', sans-serif
+		font-size: 50px
+		font-weight: thin
+	.statisticsText
+		font-family: 'Roboto', sans-serif
+		font-size: 20px
+		padding: 0
+		margin: 0
+
+//--------------------------------------//
+//----------Analyze statistics---------//
+//------------------------------------//
+
+
+
+#analyzeStatistics
+	background: url('../img/analyze-line.png')
+	background-size: cover
+	position: relative
+	margin-top: -220px
+	width: 100%
+	.description-now
+		text-align: center
+		padding-top: 250px
+		padding-bottom: 50px
+		color: black
+		h2
+			font-family: 'Roboto', sans-serif
+			font-size: 25px
+			font-weight: bold
+		p
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+	.statistics-2
+		h4
+			padding-top: 10px
+			text-align: center
+			font-family: 'Roboto', sans-serif
+			font-size: 27px
+			font-weight: bold
+		svg
+			fill: #305eb7
+		p
+			padding: 0
+			font-family: 'Roboto', sans-serif
+			font-size: 17px
+			margin: 0
+			text-align: center
+	//slick slider starts
+	.slider_daysoperated
+		padding-top: 50px
+		padding-bottom: 100px
+	.days-operated
+		h4
+			text-align: center
+			padding-top: 15px
+		p
+			padding: 0
+			margin: 0
+			font-family: 'Roboto', sans-serif
+			font-size: 17px
+			text-align: center
+	.slick
+		position: relative
+		width: 100%
+		margin: auto
+		max-width: 275px
+	.slick-arrow
+		position: absolute
+		right: 45%
+		display: block
+		width: 15px
+		height: 15px
+		transform: rotate(45deg)
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+		&:hover
+			cursor: pointer
+			transform: scale(1.5) rotate(45deg)
+	.top-arrow
+		top: -35px
+		border-right: none
+		border-bottom: none
+		border-left: 2px #80a1b0 solid
+		border-top: 2px #80a1b0 solid
+	.bot-arrow
+		bottom: -35px
+		border-left: none
+		border-top: none
+		border-right: 2px #80a1b0 solid
+		border-bottom: 2px #80a1b0 solid
+	.slick-element
+		margin-left: -10px
+		box-sizing: border-box
+		background: #e8edee
+		border-radius: 17px
+		width: 100%
+		min-width: 275px
+		min-height: 118px
+		height: auto
+		margin: 10px 0
+		.description
+			padding: 0
+		.content
+			min-width: 200px
+			max-width: 200px
+		.title
+			width: 100%
+		.title-text
+			font-size: 18px
+			color: #3b5568
+		.date
+			font-size: 11px
+			color :#7a8b8f
+		.description-text
+			color: #3b5568
+			font-size: 11px
+		.marked
+			cursor: pointer
+			text-decoration: none
+			color: #2fa381
+			text-transform: uppercase
+		.details
+			margin-top: 5px
+		.price
+			border-radius: 15px
+			box-sizing: border-box
+			padding: 4px 23px
+			background: #f2f5f6
+			border: 1px solid #c6ced8
+			color: #56b398
+			font-size: 16px
+		.fa
+			display: inline
+			color: #56b398
+		.avatar
+			img
+				&:first-child
+					margin-bottom: 15px
+		//slick slider ends
+
+
+//--------------------------------------//
+//--------------Wide Range-------------//
+//------------------------------------//
+
+#wideRange
+	background: url('../img/porshe2.png')
+	background-size: cover
+	.row
+		padding: 100px 0
+	h2
+		color: white
+		font-family: 'Roboto', sans-serif
+		font-size: 45px
+		font-weight: bold
+	p
+		color: white
+		font-family: 'Roboto', sans-serif
+		font-size: 20px
+	.widevariety-svg
+		padding-top: 70px
+		text-align: center
+	.cryptocurrency
+		p
+			float: right
+	.moveTo
+		padding-right: 40px
+
+//--------------------------------------//
+//----------Choose Your Ride-----------//
+//------------------------------------//
+
+#chooseYourRide
+	background: url('../img/chooseyourride_background.png')
+	background-size: 100% 100%
+	.selects-choose
+		margin-left: 0
+		input
+			max-width: 318px
+			width: 100%
+			height: 38px
+			font-size: 15px
+			border: 1px solid gray
+			background: transparent
+			border-radius: 20px
+			padding-left: 60px
+	.sliderForCenter
+		padding-bottom: 50px
+	.description
+		h2,p
+			text-align: center
+			color: black
+		h2
+			padding-top: 100px
+			font-family: 'HaloHandletter'
+			font-size: 40px
+		p
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+	.calculator
+		padding: 70px 0
+		form
+			box-sizing: border-box!important
+		h3
+			font-size: 30px
+			font-weight: 500
+			font-family: 'Roboto', sans-serif
+		p
+			font-size: 18px
+			font-weight: 500
+			max-width: 250px
+			font-family: 'Roboto', sans-serif
+			color: black
+		.monthly-lease
+			p
+				text-align: right
+	.forms-calculator
+		p
+			padding: 0
+			margin: 0
+			font-size: 17px
+			font-family: 'Roboto', sans-serif
+		label
+			padding-left: 5px
+			margin-bottom: 2px
+		#payout-type-home
+			padding-top: 20px
+			padding-bottom: 0
+		#progressbar16
+			.progressbar
+				background-color: black
+		.dropdown-select-arrow
+			position: relative
+			display: inline-block
+			height: 30px
+			width: 300px
+			z-index: 1
+			.background-arrow
+				position: absolute
+				top: 0
+				right: 0
+				border-top-right-radius: 20px
+				border-bottom-right-radius: 20px
+				background: #46ca9d
+				opacity: 1
+				height: 38px
+				width: 50px
+				z-index: 0
+				img
+					position: relative
+					right: 10px
+			select
+				padding: 0
+				margin: 0
+				max-width: 318px
+				width: 100%
+				height: 38px
+				font-size: 15px
+				border-radius: 20px
+				padding-left: 60px
+				z-index: 0
+				position: relative
+				-webkit-appearance: none
+				background: transparent
+		img
+			position: absolute
+			z-index: 1
+			padding-top: 13px
+			padding-left: 30px
+
+	.total-return-on-investment-home
+		margin: 50px 0
+		.part1
+			padding: 0
+			.total
+				color: #1b2832
+				font-size: 20px
+				font-family: 'Roboto', sans-serif
+				position: relative
+				top: 6px
+			#progressbar17
+				position: relative
+				top: 15px
+				padding: 0 10px
+			.calendarDays
+				color: #1b2832
+				font-size: 20px
+				padding-left: 10px
+				font-family: 'Roboto', sans-serif
+				b
+					font-size: 26px
+		.part2
+			span
+				font-size: 15px
+				font-family: 'Roboto', sans-serif
+				color: #1b2832
+			#progressbar17, #progressbar18, #progressbar19, #progressbar20
+				padding-top: 7px
+				padding-right: 3px
+				padding-left: 7px
+			.d-flex
+				padding: 0
+			.divider-ROI
+				font-size: 50px
+				font-family: 'Roboto',sans-serif
+				position: relative
+				bottom: 25px
+				font-weight: 100
+	.center
+		p
+			max-width: 700px
+			text-align: center
+			font-size: 13px
+			font-family: 'Roboto', sans-serif
+			color: black
+
+	//Arrows calculator start here
+	.slick-arrow-white
+		position: absolute
+		display: block
+		width: 18px
+		height: 18px
+		transform: rotate(135deg)
+		&:hover
+			cursor: pointer
+	.left-arrow
+		top: 45%
+		right: 20px
+		border-right: none
+		border-bottom: none
+		border-left: 2px #fff solid
+		border-top: 2px #fff solid
+	.right-arrow
+		top: 45%
+		left: 20px
+		border-left: noness
+		border-top: none
+		border-right: 2px #fff solid
+		border-bottom: 2px #fff solid
+	.slick-arrow-white-left
+		position: absolute
+		top: -25%
+		right: -50px
+		background: url('../img/arrow-home-calculator.png')
+		background-repeat: no-repeat
+		background-size: cover
+		border: 10px solid #e5e5e5
+		border-radius: 30px
+		width: 66px
+		height: 292px
+	.slick-arrow-white-right
+		position: absolute
+		top: -25%
+		left: -65px
+		background: url('../img/arrow-home-calculator.png')
+		background-repeat: no-repeat
+		background-size: cover
+		border: 10px solid #e5e5e5
+		border-radius: 30px
+		width: 66px
+		height: 292px
+	//Arrows calculator end here
+	.slick-dots
+		li
+			background: url('../img/mini MERCEDES AMG GT S.png')
+			background-size: cover
+	.slider
+		width: 50%
+		margin: 100px auto
+	.slick-slide
+		opacity: 0.2
+		transition: .3s
+		margin: 0px 20px
+		span,p
+			display: none
+	.slick-active
+		opacity: 0.5
+	.slick-current
+		opacity: 1
+		span,p
+			display: block
+
+//--------------------------------------//
+//-------------We Simplify-------------//
+//------------------------------------//
+
+#weSimplify
+	background: url('../img/wesimplify.png')
+	background-size: cover
+	.weSimplify-content
+		padding: 100px 0
+	svg
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+	h2
+		font-family: 'Roboto', sans-serif
+		font-size: 25px
+		color: white
+		font-weight: bold
+		padding-top: 70px
+		text-align: right
+	h3
+		font-size: 18px
+		font-family: 'Roboto', sans-serif
+		color: white
+		padding-top: 70px
+	button
+		width: 150px
+		height: 31px
+		font-family: 'Roboto', sans-serif
+		font-size: 14px
+		background-color: #fafafa
+		font-weight: bold
+		border-top: none
+		border-left: none
+		border-right: none
+		border-bottom: 2px solid gray
+		border-radius: 15px
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+		&:hover
+			cursor: pointer
+			background-color: #58698d
+			border-bottom: 2px solid black
+			color: white
+			padding-left: 12px
+			svg
+				fill: white
+
+
+//--------------------------------------//
+//------------Rocket SECTION-----------//
+//------------------------------------//
+
+#rocket
+	background: url('../img/background_rocket.png')
+	background-size: cover
+	box-sizing: border-box
+	.content
+		padding: 200px 0
+	.rocket1
+		padding-bottom: 50px
+
+//--------------------------------------//
+//------------Your Garage--------------//
+//------------------------------------//
+
+#yourGarage
+	background: url('../img/yourGarage.png')
+	background-size: cover
+	img
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+	button
+		width: 163px
+		height: 34px
+		font-family: 'Roboto', sans-serif
+		font-size: 16px
+		padding-left: 20px
+		border-radius: 15px
+		background-color: #F5F5F5
+		border-top: 0
+		border-left: 0
+		border-right: 0
+		border-bottom: 2px solid gray
+		-webkit-transition: all linear .35s
+		-khtml-transition: all linear .35s
+		-moz-transition: all linear .35s
+		-ms-transition: all linear .35s
+		-o-transition: all linear .35s
+		transition: all linear .35s
+		&:hover
+			cursor: pointer
+			background-color: #FFFAFA
+			padding-left: 23px
+	h2
+		font-family: 'Roboto', sans-serif
+		font-size: 35px
+		font-weight: bold
+	p
+		font-family: 'Roboto', sans-serif
+		font-size: 20px
+	.main_yourgarage
+		padding-top: 100px
+	.row
+		padding-top: 50px
+	h2,p
+		color: white
+
+//--------------------------------------//
+//---------Got more questions?---------//
+//------------------------------------//
+
+#gotMoreQuestions
+	background: url('../img/gotMoreQuestions-bg.png')
+	background-size: cover
+	#faq, #terms
+		h2
+			text-align: center
+		p
+			text-align: justify
+			padding: 0 40px
+	#form
+		position: relative
+		input,textarea,button
+			width: 80%
+			border-radius: 15px
+			border: 1px solid #a3a6af
+		input,textarea
+			margin-bottom: 10px
+			background-color: white
+			padding-left: 25px
+			&::placeholder
+				color: black
+				font-size: 15px
+				font-family: 'Roboto', sans-serif
+		button
+			background-color: #192b4e
+			color: white
+			height: 30px
+	.form
+		text-align: right
+	.description
+		h2
+			padding-top: 100px
+			font-family: 'HaloHandletter'
+			font-size: 40px
+			text-align: center
+		p
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+			text-align: center
+	.panel-container2
+		h2
+			font-family: 'Roboto', sans-serif
+			font-size: 35px
+			font-weight: 300
+			text-align: right
+		p
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+			text-align: right
+	.ajax-form-container
+		padding: 50px 0
+		background-image: url('../svg/contact-form.svg')
+		background-repeat: no-repeat
+		background-position-y: 200px
+		background-position-x: -30px
+		position: relative
+		img
+			padding-bottom: 20px
+			padding-top: 30px
+	.letUsNavigate
+		padding-top: 50px
+		padding-right: 60px
+	.etabs2
+		margin: 0
+		padding: 0
+	.contact
+		margin-right: 50px
+		border-top-right-radius: 15px
+	.terms
+		border-top-left-radius: 15px
+	.tab2
+		display: inline-block
+		background: #e6e7e9
+		position: relative
+		font-family: 'Roboto', sans-serif
+		font-size: 16px
+		padding: 0 40px
+		opacity: 0.9
+		span
+			position: relative
+			right: 40px
+		svg
+			fill: #777d8d
+			position: relative
+			top: 2px
+			left: 5px
+		a
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			font-size: 15px
+			line-height: 2em
+			display: block
+			color: #777d8d
+			padding: 0 10px
+			outline: none
+			&:hover
+				color: black
+				text-decoration: none
+				transition: .5s
+				svg
+					fill: black
+					transition: .5s
+	#tab-container2
+		padding-top: 100px
+	.tab-container2 .panel-container2
+		background: #e6e7e9
+		opacity: 0.9
+		border-top-right-radius: 15px
+		border-top-left-radius: 15px
+		padding: 10px
+
+
+//--------------------------------------//
+//-----------Footer HOME---------------//
+//------------------------------------//
+
+#footer-home
+	background: url('../img/test5.png')
+	background-size: cover
+	background-repeat: no-repeat
+	padding: 0
+	margin: 0
+	.descr
+		p
+			text-align: center
+		img
+			margin-top: -20px
+	.cars-logo
+		width: 100%
+		height: auto
+		background-color: #162645
+		margin: 0
+		padding: 20px 0
+		opacity: 0.7
+		img
+			padding: 10px 0
+			margin: 0
+	.footer-logo
+		max-width: 100%
+	hr
+		background-color: white
+	.menu3
+		li
+			list-style: none
+			-webkit-transition: all linear .35s
+			-khtml-transition: all linear .35s
+			-moz-transition: all linear .35s
+			-ms-transition: all linear .35s
+			-o-transition: all linear .35s
+			transition: all linear .35s
+			&:hover
+				cursor: pointer
+				transform: translateY(5px)
+		a
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+			color: white
+			&:hover
+				text-decoration: none
+	.menu4
+		padding-bottom: 50px
+		margin: 0
+		li
+			list-style: none
+			margin-right: 50px
+			margin-bottom: 0
+			-webkit-transition: all linear .35s
+			-khtml-transition: all linear .35s
+			-moz-transition: all linear .35s
+			-ms-transition: all linear .35s
+			-o-transition: all linear .35s
+			transition: all linear .35s
+			&:hover
+				cursor: pointer
+				transform: translateY(-5px)
+		a
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+			color: white
+			margin-bottom: 0
+			img
+				margin-left: 5px
+				position: relative
+				bottom: 2px
+			&:hover
+				text-decoration: none
+	.footer-home
+		background-color: #192647
+		background-size: cover
+		padding: 0
+		margin-top: 50px
+		height: 20px
+		.rights2
+			span
+				position: absolute
+				bottom: -19px
+				color: black
+				font-family: 'Roboto', sans-serif
+				font-size: 14px
+				font-weight: bold
+				background-color: white
+				padding: 8px 100px
+				border: 1px solid black
+				border-top-right-radius: 15px
+				border-top-left-radius: 15px
+			button
+				position: absolute
+				bottom: -19px
+				background-color: white
+				border: 1px solid black
+				border-top-right-radius: 15px
+				border-top-left-radius: 15px
+				padding-bottom: 10px
+				padding-top: 5px
+				padding-left: 17px
+				padding-right: 13px
+				&:hover
+					cursor: pointer
+					transition: .5s
+
+//--------------------------------------//
+//---------Footer HOME ENDS------------//
+//------------------------------------//
+
+.divider-footer
+	position: absolute
+	width: 100%
+
+.divideros
+	padding: 0
+
+
+//-----------------------------------------------------------//
+//---------------------HOME PAGE ENDS-----------------------//
+//---------------------------------------------------------//
+
+//-----------------------------------------------------------//
+//---------------------USER PAGE STARTS---------------------//
+//---------------------------------------------------------//
+#header-userpage
+	background: url('../img/user-page/header-background.png')
+	background-size: cover
+	width: 100%
+	height: 70px
+	.menu-sandwich
+		padding-top: 25px
+		z-index: 1100
+
+	.menu-userpage
+		padding-top: 20px
+		margin-top: 0
+		padding-bottom: 0
+		margin-bottom: 0
+		ul
+			li
+				display: inline
+
+				list-style: none
+				font-family: 'Roboto', sans-serif
+				font-size: 13px
+				margin-right: 7px
+		.bug
+			opacity: 0
+		.avatar-userpage
+			border: 2px solid #0f1125
+			border-radius: 20px
+			position: absolute
+			top: -5px
+			right: 74%
+			z-index: 1
+		.last-log
+			color: #656775
+			font-family: 'Roboto', sans-serif
+			font-size: 13px
+		.jamesBrown
+			color: white
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+	span
+		color: #454754
+	.date
+		color: white
+
+
+//-----------------------------------------------------//
+//---------------------MAIN USER----------------------//
+//---------------------------------------------------//
+
+#main-user
+	background: url('../img/user-page/main-background-userpage.png')
+	background-size: 100% 100%
+	//----------------------------------------------------//
+	//----------History + Menu buttons on the top--------//
+	//--------------------------------------------------//
+	.buttons-main-userpage
+		padding: 20px 0
+		button
+			background-color: #e4e3e4
+			border: 1px solid #e4e3e4
+			width: 30px
+			border-radius: 10px
+		a
+			color: white
+	//----------------------------------------------------//
+	//----------History + Menu buttons END---------------//
+	//--------------------------------------------------//
+
+	//----------------------------------------------------//
+	//------------Rent Information STARTS ---------------//
+	//--------------------------------------------------//
+	.rent-information-userpage
+		h3
+			color: white
+			font-size: 33px
+			font-family: 'Roboto', sans-serif
+		p
+			color: white
+			font-size: 16px
+			font-family: 'Roboto', sans-serif
+			margin-bottom: 0
+		.part1
+			text-align: left
+			position: relative
+			left: 70px
+			button
+				width: 14px
+				height: 14px
+				background-color: #ebeaea
+				border: none
+				font-size: 8px
+				border-radius: 10px
+				font-weight: bold
+				position: relative
+				margin-right: 5px
+		.part2
+			text-align: right
+			position: relative
+			right: 70px
+			button
+				width: 14px
+				height: 14px
+				background-color: #ebeaea
+				border: none
+				font-size: 8px
+				border-radius: 10px
+				font-weight: bold
+				position: relative
+				margin-left: 5px
+		.car-description
+			background-color: #6e7790
+			color: white
+			border: none
+			width: 145px
+			height: 32px
+			position: relative
+			left: 25%
+			font-size: 13px
+			border-radius: 15px
+			margin-top: 50px
+			margin-right: 10px
+			padding-bottom: 5px
+			opacity: 0.8
+			font-family: 'Aku&Kamu'
+			text-transform: uppercase
+			padding-top: 5px
+			&:before
+				content: ''
+				position: absolute
+				top: 85%
+				right: 45%
+				width: 7px
+				height: 7px
+				background-color: #6e7790
+				border: none
+				transform: rotate(45deg)
+	//----------------------------------------------------//
+	//--------------Rent Information ENDS ---------------//
+	//--------------------------------------------------//
+
+	//----------------------------------------------------//
+	//--------------MAIN USERPAGE SLIDER-----------------//
+	//--------------------------------------------------//
+	.main-slider-userpage, .main-slider-my-garage
+		.slick-arrow-white
+			position: absolute
+			display: block
+			width: 10px
+			height: 10px
+			transform: rotate(135deg)
+			&:hover
+				cursor: pointer
+		.left-arrow
+			top: 45%
+			right: 9px
+			border-right: none
+			border-bottom: none
+			border-left: 2px #fff solid
+			border-top: 2px #fff solid
+			&:hover
+				cursor: pointer
+		.right-arrow
+			top: 45%
+			left: 9px
+			border-left: noness
+			border-top: none
+			border-right: 2px #fff solid
+			border-bottom: 2px #fff solid
+			&:hover
+				cursor: pointer
+		.slick-arrow-white-left
+			position: absolute
+			top: 0
+			right: -70px
+			background: url('../img/user-page/slick-arrow-background-slider.png')
+			background-repeat: no-repeat
+			background-size: cover
+			border: 1px solid #c9c9cd
+			border-radius: 10px
+			width: 26px
+			height: 116px
+			&:hover
+				cursor: pointer
+		.slick-arrow-white-right
+			position: absolute
+			top: 0
+			left: -70px
+			background: url('../img/user-page/slick-arrow-background-slider.png')
+			background-repeat: no-repeat
+			background-size: cover
+			border: 1px solid #c9c9cd
+			border-radius: 10px
+			width: 26px
+			height: 116px
+			&:hover
+				cursor: pointer
+	//----------------------------------------------------//
+	//------------MAIN USERPAGE SLIDER ENDS--------------//
+	//--------------------------------------------------//
+
+	//---------------------------------------------------//
+	//--Return on investment(under slider description)--//
+	//-------------------------------------------------//
+	.total-return-on-investment
+		margin: 30px 0
+		h2
+			color: white
+			text-align: center
+		.part1
+			padding: 0
+			.total
+				color: white
+				font-size: 18px
+				position: relative
+				top: 10px
+				padding-right: 5px
+				font-family: 'Roboto', sans-serif
+			#progressbar6,#progressbar11
+				position: relative
+				top: 10px
+			.calendarDays
+				color: white
+				font-size: 18px
+				padding-left: 10px
+				font-family: 'Roboto', sans-serif
+				b
+					font-size: 26px
+					font-weight: 400
+		.part2
+			span
+				font-size: 15px
+				font-family: 'Roboto', sans-serif
+				color: white
+			#progressbar7, #progressbar8, #progressbar9, #progressbar12, #progressbar13, #progressbar14
+				padding: 2px 12px 0 12px
+			.d-flex
+				padding: 0
+			hr
+				background-color: white
+				width: 35px
+				transform: rotate(90deg)
+				position: relative
+				top: 10px
+				padding: 0
+				margin: 0
+	//----------------------------------------------------//
+	//Return on investment(under slider description) ENDS//
+	//--------------------------------------------------//
+
+	.total-return-on-investment-history-mode
+		margin: 30px 0
+		h2
+			color: white
+			text-align: center
+		.part1
+			padding: 0
+			.total
+				color: white
+				font-size: 18px
+				position: relative
+				top: 10px
+				padding-right: 5px
+				font-family: 'Roboto', sans-serif
+			#progressbar6,#progressbar11
+				position: relative
+				top: 10px
+			.calendarDays
+				color: white
+				font-size: 18px
+				padding-left: 10px
+				font-family: 'Roboto', sans-serif
+				b
+					font-size: 26px
+					font-weight: 400
+		.part2
+			span
+				font-size: 15px
+				font-family: 'Roboto', sans-serif
+				color: white
+			#progressbar7, #progressbar8, #progressbar9, #progressbar12, #progressbar13, #progressbar14
+				padding: 2px 12px 0 12px
+			.d-flex
+				padding: 0
+			hr
+				background-color: white
+				width: 35px
+				transform: rotate(90deg)
+				position: relative
+				top: 10px
+				padding: 0
+				margin: 0
+
+
+	//----------------------------------------------------//
+	//------------Return on investment SHOW-ROOM---------//
+	//--------------------------------------------------//
+	.total-return-on-investment-showroom
+		margin: 30px 0
+		h2
+			color: white
+			text-align: center
+		.part1
+			padding: 0
+			.total
+				color: white
+				font-size: 18px
+				position: relative
+				top: 10px
+				padding-right: 5px
+				font-family: 'Roboto', sans-serif
+			#progressbar6,#progressbar11
+				position: relative
+				top: 10px
+			.calendarDays
+				color: white
+				font-size: 18px
+				padding-left: 10px
+				font-family: 'Roboto', sans-serif
+				b
+					font-size: 26px
+					font-weight: 400
+		.part2
+			span
+				font-size: 14px
+				font-family: 'Roboto', sans-serif
+				color: white
+			#progressbar7, #progressbar8, #progressbar9, #progressbar12, #progressbar13, #progressbar14
+				padding: 0 12px
+			.d-flex
+				padding: 0
+			hr
+				background-color: white
+				width: 35px
+				transform: rotate(90deg)
+				position: relative
+				top: 10px
+				padding: 0
+				margin: 0
+				left: 15px
+	//----------------------------------------------------//
+	//----------Return on investment SHOW-ROOM ENDS------//
+	//--------------------------------------------------//
+
+	//----------------------------------------------------//
+	//---------History Mode SECTION STARTS---------------//
+	//--------------------------------------------------//
+	.car-description-history-mode
+			background-color: #858686
+			color: white
+			border: none
+			width: 145px
+			height: 32px
+			font-size: 13px
+			border-radius: 15px
+			margin-top: 50px
+			margin-right: 10px
+			padding-bottom: 5px
+			opacity: 0.8
+			&:before
+				content: ''
+				position: absolute
+				top: 54%
+				right: 50%
+				width: 7px
+				height: 7px
+				background-color: #858686
+				border-bottom: 1px solid #858686
+				border-right: 1px solid #858686
+				border-left: none
+				border-top: none
+				transform: rotate(45deg)
+	#progressbar23
+		position: relative
+		top: 12px
+	.ended-rent
+		filter: grayscale(100%)
+	//----------------------------------------------------//
+	//-----------History Mode SECTION ends---------------//
+	//--------------------------------------------------//
+
+
+//-----------------------------------------------------------//
+//-----------------------REFERALS---------------------------//
+//---------------------------------------------------------//
+
+#referals
+	background: url('../img/user-page/referals-background.png')
+	background-size: cover
+	height: 100%
+	width: 100%
+	.withdraw-userpage-button
+		background-color: #628399
+		color: white
+		font-size: 12px
+		font-family: 'Roboto', sans-serif
+		border: none
+		border-radius: 10px
+		width: 70px
+		height: 25px
+		border: 1px solid #628399
+		border-bottom: 3px solid #354b5b
+		&:hover
+			cursor: pointer
+	.progress-statistics
+		.movement-bar
+			padding-top: 30px
+		p
+			text-align: center
+			color: #7c95a6
+			font-family: 'Roboto', sans-serif
+			font-size: 14px
+		h4
+			text-align: center
+			color: white
+			padding-top: 10px
+			font-family: 'Roboto', sans-serif
+			font-size: 22px
+		hr
+			background-color: gray
+			width: 100px
+			padding: 0
+			margin-top: 80px
+			margin-left: 0
+			margin-right: 0
+	hr
+		background-color: white
+	.referal-link
+		padding: 30px 0
+		.copy-button
+			font-size: 12px
+			font-family: 'Roboto', sans-serif
+			color: white
+			background: #3a4562
+			border: none
+			border-radius: 15px
+			padding: 0 20px
+			height: 20px
+			position: relative
+			right: 130px
+			top: 8px
+			&:hover
+				cursor: pointer
+		hr
+			width: 20px
+			padding: 0
+			margin: 0
+			margin-top: 16px
+		span
+			color: white
+			font-size: 17px
+			margin-top: 4px
+			font-family: 'Roboto', sans-serif
+		.static-image-button
+			position: relative
+			right: 490px
+			top: 4px
+		input
+			border: none
+			max-width: 512px
+			width: 100%
+			padding-left: 60px
+			height: 35px
+			border-radius: 15px
+			background-color: #d6d6d9
+			&::placeholder
+				color: black
+				font-size: 15px
+				font-family: 'Roboto', sans-serif
+		.banners-button
+			margin-top: 3px
+			position: relative
+			right: 70px
+			background: #3e4967
+			border-radius: 15px
+			width: 180px
+			height: 34px
+			border: 1px solid #3e4967
+			border-bottom: 2px solid black
+			color: white
+			font-size: 17px
+			font-family: 'Roboto', sans-serif
+			&:hover
+				cursor: pointer
+	.user-progress-bars
+		padding-bottom: 10px
+		#progressbar1,#progressbar2,#progressbar3
+			padding-top: 3px
+			padding-left: 10px
+			padding-right: 10px
+		span
+			color: #7c95a6
+
+
+//-----------------------------------------------------------//
+//--------REFERRED MEMBERS + PAYMENT HISTORY----------------//
+//---------------------------------------------------------//
+
+#referredMembers-paymentHistory
+	background: url('../img/user-page/members-that-you-reffered-background.png')
+	background-size: cover
+	background-repeat: no-repeat
+	.test
+		background: url('../img/user-page/payment-history-background-checked.png')
+		background-size: cover
+		padding: 0
+		.divider-payment-history
+			position: absolute
+			width: 100%
+	.payment-history
+		padding-bottom: 70px
+	h1
+		font-family: 'Roboto', sans-serif
+		font-size: 22px
+		text-align: center
+		color: white
+		padding: 50px 0
+	.slick-user-referals
+		position: relative
+	.slick-arrow-white
+		position: absolute
+		display: block
+		width: 15px
+		height: 15px
+		transform: rotate(135deg)
+	.left-arrow
+		top: 45%
+		right: -35px
+		border-right: none
+		border-bottom: none
+		border-left: 2px #fff solid
+		border-top: 2px #fff solid
+		&:hover
+			cursor: pointer
+	.right-arrow
+		top: 45%
+		left: -35px
+		border-left: none
+		border-top: none
+		border-right: 2px #fff solid
+		border-bottom: 2px #fff solid
+		&:hover
+			cursor: pointer
+	.slick-element-referals
+		background: url('../img/user-page/slick-bg.png')
+		background-size: 100% 100%
+		max-width: 260px
+		width: 100%
+		min-height: 110px
+		height: auto
+		border-radius: 20px
+		box-sizing: border-box
+		padding: 12px 17px
+		margin-bottom: 25px
+		.referal-other-details
+			margin-bottom: 5px
+			width: 100%
+		.referal-text
+			font-size: 12px
+			width: 75%
+		.referal-description-title
+			color: #fff
+			display: block
+		.referal-description-text
+			color: #283748
+			text-transform: capitalize
+		.date
+			color: #fff
+			font-size: 12px
+			display: block
+			margin-right: 10px
+		.ref-avatar
+			margin-right: 13px
+		.ref-login
+			color: #fff
+			margin-bottom: 7px
+			font-size: 16px
+		.price
+			border-radius: 15px
+			box-sizing: border-box
+			padding: 4px 23px
+			background: #f2f5f6
+			color: #4b505f
+			font-size: 16px
+	.slick-slide
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+	.slick-user-payment-history
+		position: relative
+	.slick-arrow-white
+		position: absolute
+		display: block
+		width: 15px
+		height: 15px
+		transform: rotate(135deg)
+	.left-arrow-payment-history
+		top: 30%
+		right: -35px
+		border-right: none
+		border-bottom: none
+		border-top: 2px #fff solid
+		border-left: 2px #fff solid
+		&:hover
+			cursor: pointer
+	.right-arrow-payment-history
+		top: 30%
+		left: -35px
+		border-left: none
+		border-top: none
+		border-right: 2px #fff solid
+		border-bottom: 2px #fff solid
+		&:hover
+			cursor: pointer
+	.slick-element-payment-history
+		width: 100%
+		.payment-history-date
+			color: #fff
+			font-size: 12px
+		.payment-history-block
+			background: url('../img/user-page/slick-bg.png')
+			background-size: 100% 100%
+			max-width: 260px
+			width: 100%
+			min-height: 110px
+			height: auto
+			border-radius: 20px
+			box-sizing: border-box
+			padding: 12px 17px
+			margin-bottom: 25px
+			.withdrew-details
+				width: 60%
+			.payment-history-price
+				width: 30%
+				img
+					margin-bottom: 15px
+			.payment-history-title-price
+				display: flex
+				border-radius: 15px
+				flex-wrap: nowrap
+				align-items: center
+				box-sizing: border-box
+				padding: 4px 23px
+				background: #f2f5f6
+				color: #4b505f
+				font-size: 16px
+				margin: 0 15px
+			.payment-history-details-text
+				color: #fff
+				font-size: 12px
+			.payment-history-details-text-marked
+				color: #5284af
+				font-size: 12px
+				text-transform: uppercase
+		.payment-history-title
+			position: relative
+			img
+				position: absolute
+				right: 0px
+				bottom: -13px
+		.payment-history-title-text
+			color: #fff
+			font-size: 18px
+		.payment-history-separator
+			width: 100%
+			height: 1px
+			background: #434752
+			margin: 7px 0
+
+//-----------------------------------------------------------//
+//--------------------FOOTER USERPAGE-----------------------//
+//---------------------------------------------------------//
+footer
+	background: url('../img/user-page/footer-userpage.png')
+	background-repeat: no-repeat
+	background-size: cover
+	width: 100%
+	height: 100%
+	.user-heading
+		p
+			text-align: center
+			margin-bottom: 0
+		img
+			position: relative
+			bottom: 10px
+			z-index: 1
+		h1
+			text-align: center
+			color: white
+			position: relative
+			bottom: 15px
+			font-family: 'HaloHandletter'
+			font-size: 35px
+			padding: 0
+			margin: 0
+		h2
+			text-align: center
+			color: white
+			font-family: 'axis.bold'
+			font-size: 20px
+			position: relative
+			bottom: 20px
+			padding: 0
+			margin: 0
+	.logo-cars-footer
+		padding-top: 28px 0
+	.footer-end
+		background-color: #192647
+		background-size: cover
+		margin-top: 50px
+		height: 20px
+		border-top: 1px solid gray
+		.rights2
+			span
+				position: absolute
+				bottom: -19px
+				color: black
+				font-family: 'Roboto', sans-serif
+				font-size: 14px
+				font-weight: bold
+				background-color: white
+				padding: 8px 100px
+				border: 1px solid black
+				border-top-right-radius: 15px
+				border-top-left-radius: 15px
+			button
+				position: absolute
+				z-index: 1
+				bottom: -19px
+				background-color: white
+				border: 1px solid black
+				border-top-right-radius: 15px
+				border-top-left-radius: 15px
+				padding-bottom: 10px
+				padding-top: 5px
+				padding-left: 17px
+				padding-right: 13px
+				&:hover
+					cursor: pointer
+
+.user-divider
+	position: absolute
+	width: 100%
+	padding: 0
+	margin: 0
+
+
+//---------------------------------------//
+//---------------LOGIN FORM--------------//
+//---------------------------------------//
+
+.login-form
+	padding-bottom: 50px
+	.first-block-bg-login
+		background: url('../img/welcomeTo-bg.png')
+		background-size: 100% 100%
+		opacity: 0.95
+		border-top-right-radius: 15px
+		border-top-left-radius: 15px
+	.second-block-bg-login
+		background-color: #e7e8e9
+		border-bottom-right-radius: 15px
+		border-bottom-left-radius: 15px
+		opacity: 0.95
+	.back
+		color: white
+		margin: 0
+		font-size: 11px
+		font-family: 'Roboto', sans-serif
+		font-weight: bold
+		position: relative
+		bottom: 7px
+		left: 1px
+	.container-fluid
+		padding: 0
+	.forgot-password
+		padding-top: 20px
+		.fgt
+			padding-left: 20px
+		a
+			color: white
+			font-size: 11px
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			padding-top: 5px
+			padding-right: 20px
+		.back-button-login
+			color: #ebebec
+			button
+				border-radius: 7px
+				border: none
+				width: 20px
+				height: 20px
+				padding: 0
+				margin: 0
+				img
+					padding-left: 2px
+	.login-description
+		h1
+			color: white
+			font-family: 'Roboto', sans-serif
+			font-size: 22px
+			font-weight: bold
+			text-align: center
+		h2
+			color: white
+			font-family: 'Roboto', sans-serif
+			font-size: 22px
+			text-align: center
+		p
+			text-align: center
+			margin: 0
+			padding-bottom: 15px
+	.input
+		padding-top: 40px
+		p
+			text-align: center
+		input
+			text-align: center
+			width: 60%
+			height: 35px
+			border-radius: 7px
+			border: 1px solid white
+		.button
+			margin-top: 50px
+			background: #28a378
+			border-top-right-radius: 10px
+			border-top-left-radius: 10px
+			border-bottom-right-radius: 0
+			border-bottom-left-radius: 0
+			font-size: 17px
+			color: white
+			opacity: 0.8
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			width: 425px
+			height: 40px
+			border: none
+			padding: 0
+			margin-bottom: 0
+			z-index: 0
+			&:hover
+				cursor: pointer
+		.button-submit
+			position: relative
+			img
+				position: absolute
+				top: 62px
+				right: 39%
+
+//---------------------------------------//
+//--------------SIGN UP FORM-------------//
+//---------------------------------------//
+
+.signup-form
+	padding-bottom: 50px
+	.first-block-bg
+		background: url('../img/welcomeTo-bg.png')
+		background-size: 100% 100%
+		opacity: 0.95
+		border-top-right-radius: 15px
+		border-top-left-radius: 15px
+	.second-block-bg
+		background-color: #e7e8e9
+		border-bottom-right-radius: 15px
+		border-bottom-left-radius: 15px
+		opacity: 0.95
+	.back
+		color: white
+		padding-right: 19px
+		margin: 0
+		font-size: 11px
+		font-family: 'Roboto', sans-serif
+		font-weight: bold
+		position: relative
+		bottom: 7px
+		left: 1px
+	.back-button-login
+		color: #ebebec
+		padding-top: 10px
+		padding-right: 20px
+		button
+			border-radius: 7px
+			border-style: solid
+			border-color: #ebebec
+			width: 20px
+			height: 20px
+			padding: 0
+			margin: 0
+			img
+				padding-left: 2px
+				padding-bottom: 10px
+	.login-description
+		h1
+			color: white
+			font-family: 'Roboto', sans-serif
+			font-size: 22px
+			font-weight: bold
+			text-align: center
+		h2
+			color: white
+			font-family: 'Roboto', sans-serif
+			font-size: 22px
+			text-align: center
+		p
+			text-align: center
+			padding-bottom: 20px
+			margin-bottom: 0
+	.input
+		padding-top: 60px
+		select
+			border-radius: 7px
+			border: none
+			padding-left: 30px
+		p
+			text-align: center
+		label
+			font-size: 16px
+			font-family: 'Roboto', sans-serif
+			font-weight: 600
+			padding-top: 5px
+			padding-right: 20px
+		.payMethod
+			position: relative
+			left: 25%
+		input
+			border-radius: 7px
+			height: 35px
+			max-width: 212px
+			width: 100%
+			text-align: center
+			border: 1px solid white
+			padding: 0
+			margin: 0
+		.button
+			font-size: 17px
+			color: white
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			max-width: 927px
+			width: 100%
+			background-color: #28a378
+			border-top-right-radius: 10px
+			border-top-left-radius: 10px
+			border-bottom-right-radius: 0
+			border-bottom-left-radius: 0
+			opacity: 0.8
+			height: 40px
+			border: none
+			padding: 0
+			margin-bottom: 0
+			&:hover
+				cursor: pointer
+
+		.second-line
+			padding-top: 25px
+			.dropdown-select-arrow
+				position: relative
+				display: inline-block
+				height: 30px
+				width: 300px
+				z-index: 1
+				.background-arrow
+					position: absolute
+					top: 0
+					right: 0
+					border-top-right-radius: 5px
+					border-bottom-right-radius: 5px
+					background: #46ca9d
+					opacity: 1
+					height: 38px
+					width: 40px
+					z-index: 0
+					img
+						position: relative
+						left: 15px
+						top: 5px
+				select
+					padding: 0
+					margin: 0
+					left: 26%
+					max-width: 212px
+					width: 100%
+					height: 38px
+					border: 1px solid #46ca9d
+					border-radius: 5px
+					padding-left: 30px
+					z-index: 0
+					position: relative
+					-webkit-appearance: none
+					background: transparent
+					option
+						background: #46ca9d
+						opacity: 0.8
+						color: white
+						text-shadow: 1px 1px black
+					&:focus, &:hover
+						outline: none
+						cursor: pointer
+		.by-joining
+			padding-top: 50px
+			padding-bottom: 25px
+			font-size: 12px
+			color: #aaacb3
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			a
+				color: #aaacb3
+				text-decoration: underline
+		.get-garage-keys
+			position: relative
+			img
+				position: absolute
+				right: 39.5%
+				top: 12px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//---------------------------------------//
+//--------------EMPTY GARAGE-------------//
+//---------------------------------------//
+
+.button-menu-empty-garage
+	a.menu-empty-garage
+		color: white
+		padding-right: 19px
+		margin: 0
+		font-size: 13px
+		font-family: 'Roboto', sans-serif
+		font-weight: bold
+		position: relative
+		padding-right: 169px
+	.back-button-login
+		color: #ebebec
+		opacity: 0.9
+		padding-top: 50px
+		padding-right: 170px
+		button
+			background-color: #e4e3e4
+			border: 1px solid #e4e3e4
+			width: 30px
+			border-radius: 10px
+.empty-garage
+	padding: 170px 0
+	.text
+		background-color: #b74b62
+		opacity: 0.9
+		width: 70%
+		background-size: cover
+		border-top-left-radius: 15px
+		border-top-right-radius: 15px
+		color: white
+		font-size: 18px
+		font-family: 'Roboto', sans-serif
+		padding: 5px 0
+	.button
+		width: 70%!important
+		background-color: white
+		background-size: cover
+		border-bottom-left-radius: 15px
+		border-bottom-right-radius: 15px
+		padding: 25px 0
+		font-size: 13px
+		font-weight: bold
+		font-family: 'Roboto', sans-serif
+		margin: 0
+		button
+			width: 175px
+			height: 32px
+			background-color: #363f5b
+			color: white
+			position: relative
+			bottom: 15px
+			box-shadow: 0 2px black
+			border: 1px solid #47516d
+			border-radius: 10px
+			border-bottom: 5px black
+			&:hover
+				cursor: pointer
+
+
+//---------------------------------------//
+//---------------ASSISTANCE--------------//
+//---------------------------------------//
+
+.assistance
+	background: url('../img/user-page/assistance2.png')
+	background-size: 100% 100%
+	margin-top: 70px
+	margin-bottom: 30px
+	border-bottom-right-radius: 10px
+	border-bottom-left-radius: 10px
+	.back
+		color: white
+		margin: 0
+		font-size: 11px
+		font-family: 'Roboto', sans-serif
+		font-weight: bold
+		position: relative
+		bottom: 7px
+		left: 1px
+	.back-button-login
+			color: #ebebec
+			padding-top: 30px
+			button
+				border-radius: 7px
+				border-style: solid
+				border-color: #ebebec
+				width: 20px
+				height: 20px
+				padding: 0
+				margin: 0
+				img
+					padding-left: 2px
+					padding-bottom: 10px
+	h1
+			color: white
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			font-size: 22px
+			margin: 35px 0
+	.left-description
+		padding-top: 30px
+		h3
+			font-size: 35px
+			font-family: 'Roboto', sans-serif
+			color: #343d55
+		p
+			font-size: 16px
+			font-family: 'Roboto', sans-serif
+			color: #343d55
+		button
+			margin: 35px 0
+	.assistance-form
+		padding-top: 30px
+		position: relative
+		img
+			position: absolute
+			right: 40%
+			bottom: 20px
+		.button
+			padding: 0
+			margin: 0
+		p
+			font-size: 16px
+			font-family: 'Roboto', sans-serif
+			color: black
+			text-align: center
+		input,textarea
+			border-radius: 10px
+			width: 85%
+			border: 1px solid gray
+			&::placeholder
+				padding-left: 15px
+				color: black
+				font-family: 'Roboto', sans-serif
+				font-size: 14.5px
+		.button
+			background-color: #46506a
+			border: 1px solid #46506a
+			border-top-right-radius: 10px
+			border-top-left-radius: 10px
+			border-bottom-right-radius: 0
+			border-bottom-left-radius: 0
+			padding: 15px 0
+			width: 85%
+			color: white
+			font-size: 14.5px
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			margin-bottom: -16px
+			&:hover
+				cursor: pointer
+
+
+
+//---------------------------------------//
+//------------USER START MENU------------//
+//---------------------------------------//
+.button-menu-empty-garage
+	a.menu-empty-garage
+		color: white
+		padding-right: 19px
+		margin: 0
+		font-size: 13px
+		font-family: 'Roboto', sans-serif
+		font-weight: bold
+		position: relative
+		padding-right: 169px
+	.back-button-login
+		color: #ebebec
+		padding-top: 50px
+		padding-right: 170px
+		button
+			background-color: #e4e3e4
+			border: 1px solid #e4e3e4
+			width: 30px
+			border-radius: 10px
+
+
+
+
+.user-start-page
+	padding: 100px 0
+.stage1
+	margin-left: 75px
+	width: 60%
+	opacity: 0.9
+	background-color: white
+	border-top-right-radius: 10px
+	border-top-left-radius: 10px
+	padding: 10px 0
+	p
+		margin: 0
+		text-align: center
+		padding: 0
+	a
+		color: #465a77
+
+.stage2
+	margin-left: 75px
+	width: 60%
+	opacity: 0.9
+	background-color: #efeff0
+	padding: 10px 0
+	p
+		margin: 0
+		text-align: center
+		padding: 0
+	a
+		color: #465a77
+.stage3
+	margin-left: 75px
+	width: 60%
+	opacity: 0.9
+	background-color: #313f60
+	border-bottom-right-radius: 10px
+	border-bottom-left-radius: 10px
+	padding: 10px 0
+	p
+		margin: 0
+		text-align: center
+		padding: 0
+		color: white
+
+//---------------------------------------//
+//----------------WITHDRAW---------------//
+//---------------------------------------//
+.withdraw
+	margin-bottom: 50px
+	margin-top: 80px
+	.header-withdraw
+		background: url('../img/welcomeTo-bg.png')
+		border-top-right-radius: 10px
+		border-top-left-radius: 10px
+	.withdrawal-form
+		background-color: #ecece9
+		background-size: cover
+		border-bottom-right-radius: 10px
+		border-bottom-left-radius: 10px
+	h2
+		color: white
+		font-family: 'Roboto', sans-serif
+		font-size: 22px
+		font-weight: bold
+		padding-top: 30px
+		padding-left: 40px
+	.back
+		color: white
+		margin: 0
+		font-size: 11px
+		font-family: 'Roboto', sans-serif
+		font-weight: bold
+		position: relative
+		bottom: 7px
+		left: 1px
+	.back-button-login
+			color: #ebebec
+			padding-top: 30px
+			button
+				border-radius: 7px
+				border: none
+				width: 20px
+				height: 20px
+				padding: 0
+				margin: 0
+				img
+					padding-left: 4px
+					padding-bottom: 6px
+	.i-want-to-withdraw
+		color: #18223a
+		font-size: 17px
+		padding-top: 5px
+		font-weight: bold
+		font-family: 'Roboto', sans-serif
+	.withdraw-but
+		position: relative
+		img
+			position: absolute
+			right: 39.5%
+			top: 5px
+	.withdraw-button
+		width: 865px
+		height: 40px
+		background-color: #42bb93
+		opacity: 0.9
+		color: white
+		border: none
+		font-size: 16px
+		font-weight: bold
+		font-family: 'Roboto', sans-serif
+		border-top-right-radius: 15px
+		border-top-left-radius: 15px
+		margin: 0
+		&:hover
+			cursor: pointer
+	.receive-block
+		border: 1px solid gray
+		background-color: #f0f0f0
+		border-radius: 10px
+		padding: 10px 0
+		font-size: 18px
+		text-align: center
+		font-family: 'Roboto', sans-serif
+	.first-block
+		padding-top: 50px
+		input
+			border-radius: 5px
+			border: none
+			padding-left: 20px
+			height: 38px
+			max-width: 140px
+		.amount
+			padding-top: 8px
+			font-size: 17px
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			padding-right: 15px
+	.second-block
+		padding-top: 20px
+		input
+			background-color: #d9d9df
+			border: none
+			border-radius: 12px
+			width: 100%
+			height: 40px
+			text-align: center
+	.third-block
+		padding-top: 20px
+		padding-bottom: 40px
+	.fee-block
+		padding-top: 12px
+		font-size: 16px
+		font-weight: bold
+		font-family: 'Roboto', sans-serif
+		.fee
+			color: #39a77d
+	.dropdown-arrow
+		position: relative
+		display: inline-block
+		height: 30px
+		width: 250px
+		z-index: 1
+		.background-arrow
+			position: absolute
+			top: 0
+			left: 52%
+			border-top-right-radius: 5px
+			border-bottom-right-radius: 5px
+			background: #3e465a
+			opacity: 1
+			height: 38px
+			width: 40px
+			z-index: 0
+			img
+				position: relative
+				left: 12px
+				top: 6px
+		select
+			padding-left: 10px
+			margin: 0
+			width: 150px
+			height: 38px
+			border-radius: 5px
+			z-index: 0
+			margin-left: 20px
+			position: relative
+			-webkit-appearance: none
+			background: transparent
+
+
+
+//----------------------------------------//
+//-------------SHOW ROOM BUY-------------//
+//--------------------------------------//
+#contract-setup
+	background: url('../img/user-page/referals-background.png')
+	background-size: cover
+	height: auto
+	h3
+		color: white
+		font-size: 17px
+		font-family: 'Roboto', sans-serif
+
+	.contract-setup-row
+		padding-top: 100px
+	.contract-car-description
+		hr
+			background-color: gray
+			position: relative
+			margin-left: 0
+			margin-right: 0
+			width: 100px
+		p
+			font-size: 13px
+			font-family: 'Roboto', sans-serif
+			color: white
+	.contract-setup
+		padding-left: 70px
+		img
+			position: relative
+			top: 11px
+			z-index: 2
+			left: 20px
+		hr
+			background-color: gray
+			position: relative
+			margin-left: 0
+			margin-right: 0
+			width: 100px
+		.dropdown-select-arrow
+			position: relative
+			display: inline-block
+			height: 30px
+			width: 243px
+			z-index: 1
+			.background-arrow
+				position: absolute
+				top: -15px
+				bottom: 20px
+				right: 0
+				border-top-right-radius: 20px
+				border-bottom-right-radius: 20px
+				background: #46ca9d
+				opacity: 1
+				height: 30px
+				width: 35px
+				z-index: 0
+				img
+					position: relative
+					left: 10px
+					top: 2px
+			select
+				padding: 0
+				margin: 0
+				width: 243px
+				height: 30px
+				border-radius: 20px
+				padding-left: 40px
+				color: white
+				z-index: 0
+				font-size: 13.5px
+				font-family: 'Roboto', sans-serif
+				position: relative
+				bottom: 15px
+				-webkit-appearance: none
+				background: transparent
+				option
+					color: black
+
+
+		#contract-type, #payout-type
+			padding-bottom: 20px
+			margin-left: 120px
+		#contract-type
+			position: relative
+			padding-bottom: 0
+			bottom: 20px
+			.image1
+				position: relative
+				top: 27px
+				left: 45px
+				padding: 0
+				margin: 0
+		#payout-type
+			position: relative
+			bottom: 20px
+			.image2
+				position: relative
+				top: 27px
+				left: 45px
+				padding: 0
+				margin: 0
+
+	.contract-summary
+		text-align: right
+		hr
+			background-color: gray
+			position: relative
+			margin-right: 0
+			width: 100px
+		p
+			color: white
+			font-size: 16px
+			font-family: 'Roboto', sans-serif
+		b
+			color: #2c7c63
+
+	.payment-method, .total-amount-to-pay
+		span
+			color: white
+			font-size: 18px
+			font-family: 'Roboto', sans-serif
+		b
+			color: #2c7c63
+	.payment-method
+		position: relative
+		bottom: 25px
+		span
+			padding-right: 20px
+		img
+			position: relative
+			left: 200px
+			top: 27px
+			z-index: 2
+		.dropdown-select-arrow
+			position: relative
+			z-index: 1
+			height: 30px
+			width: 243px
+			.background-arrow
+				position: absolute
+				top: 0
+				bottom: 20px
+				right: 0
+				border-top-right-radius: 20px
+				border-bottom-right-radius: 20px
+				background: #46ca9d
+				opacity: 1
+				height: 30px
+				width: 35px
+				z-index: 0
+				img
+					position: relative
+					left: 10px
+					top: 2px
+			select
+				padding: 0
+				margin: 0
+				width: 243px
+				color: white
+				height: 30px
+				border-radius: 20px
+				padding-left: 40px
+				z-index: 0
+				font-size: 13.5px
+				font-family: 'Roboto', sans-serif
+				position: relative
+				-webkit-appearance: none
+				background: transparent
+				option
+					color: black
+	.total-amount-to-pay
+		input
+			border-radius: 15px
+			width: 120px
+			border: 1px solid white
+			height: 29px
+			text-align: center
+		.button-main
+			position: relative
+			bottom: 5px
+			display: flex
+			flex-wrap: nowrap
+			background: #fff
+			justify-content: space-between
+			align-items: center
+			border-radius: 15px
+			padding-left: 40px
+			background: #f32340
+			margin-right: 40px
+			border: none
+			width: 100%
+			max-width: 241px
+			height: 37px
+			box-shadow: 0px 2px 0px 0px #781c2d
+			&:hover
+				cursor: pointer
+			span
+				color: white
+				font-family: 'Roboto', sans-serif
+				font-weight: 600
+				font-size: 14px
+				justify-content-center
+		    	display: flex
+		    	width: 100%
+			.icon
+				background: white
+				border-top-right-radius: 15px
+				border-bottom-right-radius: 15px
+				min-width: 40px
+				min-height: 37px
+				bottom: 1px
+				position: relative
+				display: flex
+				justify-content: center
+				align-items: center
+				right: -6px
+				img
+					position: relative
+					left: 2px
+					top: 2px
+		.button-main .icon
+			&::before
+				content: ''
+				position: absolute
+				left: -4px
+				top: 15px
+				width: 0
+				height: 0
+				border-style: solid
+				border-width: 3px 4px 3px 0
+				border-color: transparent white transparent transparent
+
+	.total-amount-payment
+		padding-bottom: 100px
+
+	hr
+		background: white
+
+
+
+//---------------------------------------//
+//-----------ACCOUNT SETTINGS-----------//
+//-----------PAYMENT DETAILS-----------//
+//------------------------------------//
+.payment-settings
+	padding-bottom: 50px
+.back-button
+	color: white
+	margin: 0
+	font-size: 11px
+	font-family: 'Roboto', sans-serif
+	font-weight: bold
+	position: relative
+	right: 60px
+	.back
+		position: relative
+		left: 1px
+		color: white
+	.back-button-login
+		color: #ebebec
+		padding-top: 30px
+		button
+			border-radius: 7px
+			border: none
+			width: 20px
+			height: 20px
+			padding: 0
+			margin: 0
+			img
+				padding-left: 4px
+//--------------ACCOUNT SETTINGS--------------//
+.acc-settings
+	padding: 10px 0
+
+	//----TABS----//
+
+	.etabs2
+		margin: 0
+		padding: 0
+	.ins
+		margin-left: 38px
+		border-top-left-radius: 15px
+		border-right: none
+		span
+			position: relative
+			left: 50px
+	.ed
+		margin-left: -4px
+		border-top-right-radius: 15px
+		border-left: none
+	.tab2
+		display: inline-block
+		background: url('../img/welcomeTo-bg.png')
+		background-size: 430% 430%
+		background-repeat: no-repeat
+		padding: 0 40px
+		opacity: 0.9
+		border: none
+	.tab2
+		a
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			font-size: 15px
+			line-height: 2em
+			display: block
+			margin: 0
+			color: white
+			padding: 0 10px
+			outline: none
+			&:hover
+				text-decoration: none
+				transition: .5s
+	.tab-container2 .panel-container2
+		background: gray
+		background-size: cover
+		opacity: 0.9
+		border: none
+		border-radius: 15px
+		padding: 0
+
+	//----TABS END----//
+
+	.edit-account
+		background: url('../img/welcomeTo-bg.png')
+		background-size: 100% 100%
+		border-top-left-radius: 10px
+		border-top-right-radius: 10px
+		h2
+			font-size: 22px
+			padding-top: 20px
+			color: white
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+		p
+			font-size: 15px
+			color: white
+			font-family: 'Roboto', sans-serif
+		a
+			color: black
+			font-size: 12px
+			font-family: 'Roboto', sans-serif
+			text-decoration: underline
+			text-decoration-color: black
+			text-align: right
+		.profilePhoto
+			width: 100px
+			height: 100px
+		.upload
+			position: absolute
+			right: 55px
+			top: 42px
+		.uploadphoto
+			width: 100%
+			padding-top: 20px
+			span
+				position: relative
+				top: 15px
+			a
+				color: white
+				text-decoration-color: white
+	.account-settings-form
+		background: url('../img/user-page/payment-settings-bg.png')
+		background-size: cover
+		border-bottom-right-radius: 10px
+		border-bottom-left-radius: 10px
+		.first-block
+			padding-top: 30px
+			label
+				font-family: 'Roboto', sans-serif
+				font-size: 16px
+				font-weight: bold
+				color: black
+				padding-top: 5px
+			input
+				text-align: center
+				border: none
+				border-radius: 5px
+				height: 35px
+				margin: 0 10px
+		.second-block
+			padding-top: 30px
+			label
+				font-family: 'Roboto', sans-serif
+				font-size: 16px
+				font-weight: bold
+				color: black
+				padding-top: 5px
+			input
+				background-color: white
+				text-align: center
+				border: none
+				border-radius: 5px
+				height: 35px
+				margin: 0 5px
+		.submit-button
+			position: relative
+			img
+				position: absolute
+				top: 62px
+				right: 400px
+		.button
+			margin-top: 50px
+			padding: 10px 0
+			background: #44bb93
+			border-top-right-radius: 10px
+			border-top-left-radius: 10px
+			margin-bottom: 0
+			color: white
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+			font-weight: bold
+			width: 760px
+			border: none
+			&:hover
+				cursor: pointer
+
+	//--------PAYMENT DETAILS--------//
+
+	#payment-details
+		.top-header
+			background: url('../img/welcomeTo-bg.png')
+			background-size: 100% 100%
+			border-top-left-radius: 10px
+			border-top-right-radius: 10px
+		h2
+			padding: 30px 0
+			color: white
+			font-size: 22px
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			span
+				font-size: 17px
+				padding-left: 10px
+				font-family: 'Roboto', sans-serif
+				font-weight: bold
+		.addpaymentdetails
+			background: url('../img/user-page/payment-settings-bg.png')
+			background-size: cover
+			border-bottom-right-radius: 15px
+			border-bottom-left-radius: 15px
+		input
+			text-align: center
+		.submit-button
+			position: relative
+			img
+				position: absolute
+				top: 62px
+				right: 360px
+		.btn
+			margin-top: 50px
+			padding: 10px 0
+			background: #44bb93
+			border-top-right-radius: 10px
+			border-top-left-radius: 10px
+			border-bottom-left-radius: 0
+			border-bottom-right-radius: 0
+			margin-bottom: 0
+			color: white
+			font-family: 'Roboto', sans-serif
+			font-size: 16px
+			font-weight: bold
+			width: 760px
+			border: none
+			&:hover
+				cursor: pointer
+		.first-block
+			padding-top: 30px
+			span
+				padding-top: 4px
+				font-size: 17px
+				font-family: 'Roboto', sans-serif
+				color: black
+				font-weight: bold
+			.dropdown-arrow
+				position: relative
+				z-index: 1
+				.background-arrow
+					position: absolute
+					height: 39px
+					background: #3e465a
+					width: 50px
+					right: 0
+					z-index: 0
+					border-top-right-radius: 10px
+					border-bottom-right-radius: 10px
+					img
+						position: relative
+						left: 17px
+						top: 6px
+				select
+					margin-left: 40px
+					color: black
+					width: 350px
+					font-size: 16px
+					z-index: 0
+					height: 39px
+					border: 1px solid #3e465a
+					position: relative
+					border-radius: 10px
+					padding: 0 50px
+					-webkit-appearance: none
+					background: transparent
+					option
+						background-color: #3e465a
+						color: white
+						outline: none
+						outline-offset: none
+					&:hover, &:focus
+						cursor: pointer
+						outline: none
+		.second-block
+			padding-top: 30px
+			padding-bottom: 20px
+			input
+				width: 75%
+				height: 40px
+				border: none
+				color: #888c96
+				border-radius: 10px
+		.third-block
+			span
+				font-size: 15px
+				color: black
+				font-weight: bold
+				font-family: 'Roboto', sans-serif
+				b
+					color: #45ab84
+
+
+//---------------------------------------//
+//---------PROMOTIONAL BANNERS---------//
+//------------------------------------//
+.promotional-banners
+		background: url('../img/user-page/promotional-banner-background.png')
+		background-size: cover
+		margin-top: 70px
+		margin-bottom: 30px
+		border-top-right-radius: 10px
+		border-top-left-radius: 10px
+		border-bottom-right-radius: 10px
+		border-bottom-left-radius: 10px
+		ul
+			span
+				padding-top: 7px
+				padding-left: 10px
+				padding-right: 10px
+		a
+			color: black
+			&:hover
+				color: black
+		.nav-pills
+			.nav-link.active
+				background-color: #4acea0
+				border-radius: 12px
+		.back
+			color: white
+			margin: 0
+			font-size: 11px
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			position: relative
+			bottom: 7px
+			left: 1px
+			&:hover
+				color: white
+		.back-button-login
+			color: #ebebec
+			padding-top: 25px
+			button
+				border-radius: 7px
+				border-style: solid
+				border-color: #ebebec
+				width: 20px
+				height: 20px
+				padding: 0
+				margin: 0
+				img
+					padding-left: 2px
+					padding-bottom: 10px
+		h1
+			font-size: 22px
+			padding-top: 30px
+			position: relative
+			bottom: 65px
+			color: white
+			font-family: 'Roboto', sans-serif
+		button
+			margin-top: 20px
+		.usethis
+			font-size: 15px
+			font-family: 'Roboto', sans-serif
+			font-weight: bold
+			color: #575b67
+			padding-top: 30px
+			padding-bottom: 15px
+		.code
+			border: 1px solid gray
+			border-radius: 12px
+			padding: 12px 50px
+			margin-bottom: 20px
+			width: 80%
+			text-align: center
+			color: #7c7f88
+			font-size: 15px
+			font-family: 'Roboto', sans-serif
+			font-weight: bold

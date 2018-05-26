@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/media_1.css">
+	<link rel="stylesheet" href="css/noty.css">
+	<link rel="stylesheet" href="css/sunset.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.lineProgressbar.min.css">
+</head>
+<body>
+
+	<header id="header-userpage">
+		<div class="container">
+			<div class="d-lg-none d-xl-none">
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<ul>
+						<li><a href="">James Brown&nbsp; <img class="avatar-userpage" src="img/user-page/avatar-userpage.png" alt=""></a></li>
+						<li>
+							<ul class="menu-mobile-userpage-block">
+								<li><a href="settings-payments.html"><img src="svg/user-settings.svg" alt=""></a></li>
+								<li><a href="assistance.html"><img src="svg/user-send.svg" alt=""></a></li>
+								<li><a href="home.html"><img src="svg/user-logout.svg" alt=""></a></li>
+							</ul>
+						</li>
+
+							<ul>
+								<li>
+									<span class="last-log">
+										<img src="svg/last-log.svg" alt="">last log
+										<script>
+											var date = new Date();
+											day = date.getMonth();
+											month = date.getMonth();
+											year = date.getFullYear();
+											document.write(day + '.' + month + '.' + year);
+										</script>
+									</span>
+								</li>
+								<li>
+									<span class="date"><img src="svg/calendar-menu-userpage.svg" alt="">
+		    						<script>
+		    						Data = new Date();
+									Month = Data.getMonth();
+									Day = Data.getDate();
+									Hour = Data.getHours();
+									Minute = Data.getMinutes();
+									switch (Month)
+									{
+		  							case 0: fMonth="january"; break;
+		  							case 1: fMonth="february"; break;
+		  							case 2: fMonth="march"; break;
+		  							case 3: fMonth="april"; break;
+		  							case 4: fMonth="may"; break;
+		  							case 5: fMonth="june"; break;
+		  							case 6: fMonth="july"; break;
+		  							case 7: fMonth="august"; break;
+		  							case 8: fMonth="september"; break;
+		  							case 9: fMonth="october"; break;
+		  							case 10: fMonth="november"; break;
+		  							case 11: fMonth="december"; break;
+									}
+									document.write(Day+" "+fMonth+" | "+ Hour +":"+Minute);
+									</script></span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<span class="d-flex justify-content-end menu-sandwich" onclick="openNav()"><img src="svg/media/sanwich-menu.svg" alt=""></span>
+			</div>
+
+			<div class="row menu-userpage d-none d-lg-flex">
+				<div class="col-5 d-flex justify-content-end">
+					<ul>
+						<li><a href=""><img class="avatar-userpage" src="img/user-page/avatar-userpage.png" alt=""></a></li>
+						<li><a class="jamesBrown" href="#">James Brown</a></li>
+						<li><img src="img/user-page/divider-menu-userpage.png" alt=""></li>
+						<li><a href="settings-payments.html"><img src="svg/user-settings.svg" alt=""></a>
+						<li><img src="img/user-page/divider-menu-userpage2.png" alt=""></li>
+						<li><a href="assistance.html"><img src="svg/user-send.svg" alt=""></a></li>
+						<li><img src="img/user-page/divider-menu-userpage.png" alt=""></li>
+						<li><a href="home.html"><img src="svg/user-logout.svg" alt=""></a></li>
+						<li><img src="img/user-page/divider-menu-userpage.png" alt=""></li>
+						<li><img class="bug" src="img/user-page/divider-menu-userpage.png" alt=""></li>
+					</ul>
+				</div>
+				<div class="col-2 d-flex justify-content-center">
+					<a href=""><img src="img/user-page/logo-header.png" alt=""></a>
+				</div>
+				<div class="col-5 d-flex justify-content-center">
+					<ul>
+						<li>
+							<span class="last-log">
+								<img src="svg/last-log.svg" alt="">last log
+								<script>
+									var date = new Date();
+									day = date.getMonth();
+									month = date.getMonth();
+									year = date.getFullYear();
+									document.write(day + '.' + month + '.' + year);
+								</script>
+							</span>
+						</li>&nbsp;&nbsp;
+						<li>
+							<span class="date"><img src="svg/calendar-menu-userpage.svg" alt="">
+    						<script>
+    						Data = new Date();
+							Month = Data.getMonth();
+							Day = Data.getDate();
+							Hour = Data.getHours();
+							Minute = Data.getMinutes();
+							switch (Month)
+							{
+  							case 0: fMonth="january"; break;
+  							case 1: fMonth="february"; break;
+  							case 2: fMonth="march"; break;
+  							case 3: fMonth="april"; break;
+  							case 4: fMonth="may"; break;
+  							case 5: fMonth="june"; break;
+  							case 6: fMonth="july"; break;
+  							case 7: fMonth="august"; break;
+  							case 8: fMonth="september"; break;
+  							case 9: fMonth="october"; break;
+  							case 10: fMonth="november"; break;
+  							case 11: fMonth="december"; break;
+							}
+							document.write(Day+" "+fMonth+" | "+ Hour +":"+Minute);
+							</script></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<img class="user-divider" src="img/divider2.png" alt="">
+
+	<section id="main-user">
+		<div class="container">
+
+			<div class="row buttons-main-userpage">
+				<div class="col-2 offset-1 d-flex flex-column align-items-center">
+					<a href="#"><button><img src="svg/history-button.svg" alt=""></button></a>
+					<a href="#">history</a>
+				</div>
+				<div class="col-2 offset-6 d-flex flex-column align-items-center">
+					<a href="#"><button><img src="svg/menu-button.svg" alt=""></button></a>
+					<a href="#">menu</a>
+				</div>
+			</div>
+
+			<div class="row rent-information-userpage">
+				<div class="part1 col-3 offset-1 d-flex flex-column align-items-start">
+					<div class="row"><button data-toggle="tooltip" title="text11111">?</button><h3>$500</h3></div>
+					<p>You rented<br> car for</p>
+					<div id="progressbar4"></div>
+				</div>
+				<div class="col-4 d-none d-sm-block">
+					<button class="car-description">Mercedes AMG GT</button>
+				</div>
+				<div class="part2 col-3 d-flex flex-column align-items-end">
+					<div class="row"><h3>%100</h3><button data-toggle="tooltip" title="text1111">?</button></div>
+					<p>You<br> leased for</p>
+					<div id="progressbar5"></div>
+				</div>
+			</div>
+			<div class="col-12 d-block d-sm-none d-flex justify-content-center">
+				<button class="car-description2">Mercedes AMG GT</button>
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-8 col-md-8 col-sm-8 offset-lg-2 offset-md-2 offset-sm-2">
+					<div class="main-slider-my-garage">
+						<div class="d-flex justify-content-center">
+							<img src="/img/cars-slider-calculator/mercedes-amg-gt.png" alt="">
+							</div>
+							<div class="d-flex justify-content-center">
+
+								<img src="/img/cars-slider-calculator/bentley.png" alt="">
+							</div>
+							<div class="d-flex justify-content-center">
+
+								<img src="/img/cars-slider-calculator/ferrari.png" alt="">
+							</div>
+							<div class="d-flex justify-content-center">
+
+								<img src="/img/cars-slider-calculator/lamborghini.png" alt="">
+							</div>
+							<div class="d-flex justify-content-center">
+
+								<img src="/img/cars-slider-calculator/maybach.png" alt="">
+							</div>
+							<div class="d-flex justify-content-center">
+
+								<img src="/img/cars-slider-calculator/mclaren.png" alt="">
+							</div>
+							<div class="d-flex justify-content-center">
+
+								<img src="/img/cars-slider-calculator/nissan.png" alt="">
+							</div>
+							<div class="d-flex justify-content-center">
+
+								<img src="/img/cars-slider-calculator/porshe.png" alt="">
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="calculator-description col-10 offset-1 d-flex justify-content-center">
+					<div class="total-return-on-investment">
+						<div class="col-12 d-flex justify-content-center part1">
+							<span class="hel">Total ROI</span>
+							<span class="total totalROII">Total return on investment&nbsp; <img src="svg/total-return-on-investment.svg" alt=""></span>
+
+							<div id="progressbar6"></div>
+							<span class="calendarDays calendarDays-showroom"><b>$1670</b><span> &nbsp;in 30 calendar days </span>&nbsp;<img src="svg/in30calendarDays.svg" alt=""></span>
+						</div>
+						<div class="row part2">
+							<div class="col-lg-4 d-flex justify-content-center">
+								<span>Total&nbsp;ROI</span>
+								<div id="progressbar7"></div>
+								<span>5%</span>
+								<hr>
+							</div>
+
+							<div class="col-lg-4 d-flex justify-content-center">
+								<span>Daily</span>
+								<div id="progressbar8"></div>
+								<span>0.6%</span>
+								<hr>
+							</div>
+
+							<div class="col-lg-4 d-flex justify-content-center">
+								<span>Hourly</span>
+								<div id="progressbar9"></div>
+								<span>0.05%</span>
+							</div>
+						</div>
+
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<img class="user-divider" src="img/divider2.png" alt="">
+
+	<section id="contract-setup">
+		<div class="container wow fadeInLeft">
+
+			<div class="row contract-setup-row">
+				<div class="col-lg-4 contract-car-description">
+					<h3>MERCEDES-MAYBACH S 600</h3>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ad eligendi laborum soluta cumque commodi, eos culpa ut accusantium fugit deserunt maxime error perspiciatis ex sequi. Repellendus molestiae eum voluptates repellat dicta obcaecati ipsam in odio temporibus labore earum, pariatur.</p>
+				</div>
+
+				<div class="col-lg-4 contract-setup d-flex flex-column align-items-start">
+					<h3>Contract setup</h3>
+					<hr>
+
+					<img src="svg/contract-type-userpage.svg" alt="">
+					<div class="dropdown-select-arrow">
+            <div class="background-arrow"><img src="svg/home/dropdownArrow-chooseYourRide-home.svg" alt=""></div>
+    				<select name="lease-price">
+              <div class="image"></div>
+    					<option value="volvo"> Contract Type</option>
+    					<option value="saab"> 90 days - 90% lease price</option>
+    					<option value="fiat"> 180 days - 85% lease price</option>
+    					<option value="audi"> 360 days - 80% lease price</option>
+    				</select>
+		    	</div>
+
+		      <img src="svg/payout_type_userpage.svg" alt="">
+		      <div class="dropdown-select-arrow">
+						<div class="background-arrow"><img src="svg/home/dropdownArrow-chooseYourRide-home.svg" alt=""></div>
+	  				<select name="fee-percentage">
+	    				<option value="volvo"> Payout Type</option>
+	    				<option value="saab"> Monthly with 0% fee</option>
+	    				<option value="fiat"> Monthly with 0% fee</option>
+	    				<option value="audi"> Monthly with 0% fee</option>
+	  			 	</select>
+		  		</div>
+				</div>
+
+				<div class="col-lg-4 contract-summary">
+					<h3>Summary</h3>
+					<hr>
+					<p>You will receive <b>$170.00</b><br> in <b>30 days with 0% fee<br> on paycheck</b></p>
+				</div>
+
+			</div><!--row-->
+
+			<hr>
+
+			<div class="row total-amount-payment">
+
+				<div class="col-lg-5 payment-method">
+					<img class="payoutType" src="svg/payout_type_userpage.svg" alt="">
+					<div class="row d-flex justify-content-center">
+						<span>Payment method</span>
+						<div class="dropdown-select-arrow">
+	            <div class="background-arrow"><img src="svg/home/dropdownArrow-chooseYourRide-home.svg" alt=""></div>
+	    				<select name="lease-price">
+	          			<div class="image"></div>
+	      					<option value="volvo"> Payment Method</option>
+	      					<option value="saab"> 90 days - 90% lease price</option>
+	      					<option value="fiat"> 180 days - 85% lease price</option>
+	      					<option value="audi"> 360 days - 80% lease price</option>
+	    				</select>
+		    		</div>
+					</div>
+        </div>
+
+				<div class="col-lg-7 total-amount-to-pay">
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 d-flex justify-content-center">
+							<span>Amount to pay</span> &nbsp;
+							<input type="text" placeholder="$100.00">
+						</div>
+						<div class="col-lg-6 col-sm-6 d-flex justify-content-center">
+							<button class="button-main" type="submit">
+                <span class="text">Proceed to payment</span>
+              	<div class="icon"><img src="svg/button-payment-car.svg" alt=""></div>
+						  </button>
+						</div>
+					</div>
+				</div>
+
+			</div><!--row-->
+
+		</div><!--container ends-->
+	</section>
+
+	<img class="user-divider" src="img/divider2.png" alt="">
+
+	<section id="referredMembers-paymentHistory">
+
+		<h1>Members that you have referred &nbsp;<img src="svg/members-referred.svg" alt=""></h1>
+
+		<div class="container wow fadeInDown">
+			<div class="slick-user-referals">
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Andrueet11</span>
+							<span class="price"><i class="fa fa-usd" aria-hidden="true"></i>50</span>
+						</div>
+						<img src="img/user-page/mercedes-maybach.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Just rented a car under you!</span>
+							<span class="referal-description-text">mercedes-maybach s 600</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Andrueet11</span>
+							<span class="price"><i class="fa fa-usd" aria-hidden="true"></i>50</span>
+						</div>
+						<img src="img/user-page/mercedes-maybach.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Just rented a car under you!</span>
+							<span class="referal-description-text">mercedes-maybach s 600</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Andrueet11</span>
+							<span class="price">- - -</span>
+						</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined under you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Andrueet11</span>
+							<span class="price">- - -</span>
+						</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined under you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Natan1244</span>
+							<span class="price">- - -</span>
+						</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined under you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Natan1244</span>
+							<span class="price">- - -</span>
+						</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined under you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Andrueet11</span>
+							<span class="price"><i class="fa fa-usd" aria-hidden="true"></i>50</span>
+						</div>
+						<img src="img/user-page/mercedes-maybach.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Just rented a car under you!</span>
+							<span class="referal-description-text">mercedes-maybach s 600</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+							<div class="referal-title d-flex flex-column align-items-start">
+								<span class="ref-login">Andrueet11</span>
+								<span class="price">- - -</span>
+							</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined under you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+
+				<div class="slick-element-referals d-flex flex-column justify-content-center align-items-center">
+					<div class="referal-details  d-flex flex-nowrap justify-content-between align-items-end">
+						<img class="ref-avatar" src="img/user-page/avatar.png">
+						<div class="referal-title d-flex flex-column align-items-start">
+							<span class="ref-login">Natan1244</span>
+							<span class="price">- - -</span>
+						</div>
+						<img src="img/user-page/nocar.png">
+					</div>
+					<div class="referal-other-details d-flex flex-nowrap justify-content-between align-items-end">
+						<div class="referal-text">
+							<span class="referal-description-title">Has joined uncder you but still has not rented any car yet</span>
+						</div>
+						<span class="date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid test">
+			<img class="divider-payment-history" src="img/user-page/divider-payment-history.png" alt="">
+			<div class="payment-history">
+			<h1>Payment History &nbsp; <img src="svg/payment_history.svg" alt=""></h1>
+				<div class="container wow fadeInUp" data-wow-delay="0.5s">
+				<div class="slick-user-payment-history">
+
+					<div class="slick-element-payment-history d-flex flex-column justify-content-center align-items-center">
+						<div class="payment-history-block">
+							<div class="payment-history-title d-flex flex-nowrap justify-content-center align-items-center">
+								<span class="payment-history-title-text">You received</span>
+								<span class="payment-history-title-price"><i class="fa fa-usd"></i>50</span>
+								<img src="img/user-page/mercedes-maybach.png">
+							</div>
+						<div class="payment-history-separator"></div>
+							<div class="d-flex flex-column justify-content-center align-items-center">
+								<span class="payment-history-details-text">you received profit from renting</span>
+								<span class="payment-history-details-text-marked">mercedes-maybach s 600</span>
+							</div>
+						</div>
+					<div class="payment-history-date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></div>
+					</div>
+
+					<div class="slick-element-payment-history d-flex flex-column justify-content-center align-items-center">
+						<div class="payment-history-block d-flex flex-nowrap justify-content-between align-items-center">
+							<div class="withdrew-details d-flex flex-column justify-content-center align-items-center">
+								<div class="payment-history-title d-flex flex-nowrap justify-content-center align-items-center">
+									<span class="payment-history-title-text">You withdrew</span>
+								</div>
+								<div class="payment-history-separator"></div>
+								<div class="d-flex flex-column justify-content-center align-items-center">
+									<span class="payment-history-details-text">you withdrew yo your</span>
+									<span class="payment-history-details-text-marked">bitcoin account</span>
+								</div>
+							</div>
+
+							<div class="payment-history-price d-flex flex-column justify-content-center align-items-center">
+							<img src="img/user-page/bitcoin.png">
+							<span class="payment-history-title-price"><i class="fa fa-usd"></i>100</span>
+							</div>
+						</div>
+						<div class="payment-history-date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></div>
+					</div>
+
+					<div class="slick-element-payment-history d-flex flex-column justify-content-center align-items-center">
+				<div class="payment-history-block d-flex flex-nowrap justify-content-between align-items-center">
+					<div class="withdrew-details d-flex flex-column justify-content-center align-items-center">
+						<div class="payment-history-title d-flex flex-nowrap justify-content-center align-items-center">
+							<span class="payment-history-title-text">You withdrew</span>
+						</div>
+						<div class="payment-history-separator"></div>
+						<div class="d-flex flex-column justify-content-center align-items-center">
+							<span class="payment-history-details-text">you withdrew yo your</span>
+							<span class="payment-history-details-text-marked">bitcoin account</span>
+						</div>
+					</div>
+					<div class="payment-history-price d-flex flex-column justify-content-center align-items-center">
+						<img src="img/user-page/bitcoin.png">
+						<span class="payment-history-title-price"><i class="fa fa-usd"></i>100</span>
+					</div>
+				</div>
+				<div class="payment-history-date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></div>
+			</div>
+
+					<div class="slick-element-payment-history d-flex flex-column justify-content-center align-items-center">
+				<div class="payment-history-block d-flex flex-nowrap justify-content-between align-items-center">
+					<div class="withdrew-details d-flex flex-column justify-content-center align-items-center">
+						<div class="payment-history-title d-flex flex-nowrap justify-content-center align-items-center">
+							<span class="payment-history-title-text">You withdrew</span>
+						</div>
+						<div class="payment-history-separator"></div>
+						<div class="d-flex flex-column justify-content-center align-items-center">
+							<span class="payment-history-details-text">you withdrew yo your</span>
+							<span class="payment-history-details-text-marked">bitcoin account</span>
+						</div>
+					</div>
+					<div class="payment-history-price d-flex flex-column justify-content-center align-items-center">
+						<img src="img/user-page/bitcoin.png">
+						<span class="payment-history-title-price"><i class="fa fa-usd"></i>100</span>
+					</div>
+				</div>
+				<div class="payment-history-date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></div>
+			</div>
+
+					<div class="slick-element-payment-history d-flex flex-column justify-content-center align-items-center">
+				<div class="payment-history-block d-flex flex-nowrap justify-content-between align-items-center">
+					<div class="withdrew-details d-flex flex-column justify-content-center align-items-center">
+						<div class="payment-history-title d-flex flex-nowrap justify-content-center align-items-center">
+							<span class="payment-history-title-text">You withdrew</span>
+						</div>
+						<div class="payment-history-separator"></div>
+						<div class="d-flex flex-column justify-content-center align-items-center">
+							<span class="payment-history-details-text">you withdrew yo your</span>
+							<span class="payment-history-details-text-marked">bitcoin account</span>
+						</div>
+					</div>
+					<div class="payment-history-price d-flex flex-column justify-content-center align-items-center">
+						<img src="img/user-page/bitcoin.png">
+						<span class="payment-history-title-price"><i class="fa fa-usd"></i>100</span>
+					</div>
+				</div>
+				<div class="payment-history-date">14.11&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></div>
+			</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<img class="user-divider" src="img/divider2.png" alt="">
+
+	<footer>
+		<div class="container">
+			<div class="user-heading">
+				<p><img src="img/user-page/logo.png" alt=""></p>
+				<h1>Cars Club</h1>
+				<h2>BLOCKCHAIN</h2>
+			</div>
+			<div class="logo-cars-footer d-flex justify-content-center">
+				<img src="img/user-page/logo-cars.png" alt="">
+			</div>
+		</div>
+		<div class="container-fluid footer-end">
+			<div class="container">
+				<div class="row rights2">
+					<div class="col-8 d-flex justify-content-end">
+    					<span>&copy; 2018 All Rights Reserved.</span>
+    				</div>
+    				<div class="col-4 d-flex justify-content-end">
+    					<a class="go" href="#header-userpage"><button><img src="svg/backToTop.svg" alt=""></button></a>
+    				</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/libs.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/jquery.easytabs.js"></script>
+	<script src="js/jquery.hashchange.min.js"></script>
+	<script src="js/jquery-progresspiesvg.js"></script>
+	<script src="js/jquery-progresspiesvg-image.js"></script>
+	<script src="js/jquery-progresspiesvg-valueDisplay.js"></script>
+	<script src="js/jquery-animate-number.min.js"></script>
+	<script src="js/jquery.lineProgressbar.js"></script>
+	<script type="text/javascript" src="js/noty/packaged/jquery.noty.packaged.min.js"></script>
+	<script src="js/jquery.spincrement.min.js"></script>
+	<script src="js/noty.min.js"></script>
+	<script src="js/bounce.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		new WOW({
+			mobile: false
+		}).init();
+	</script>
+</body>
+</html>
